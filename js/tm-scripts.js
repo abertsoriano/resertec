@@ -9,11 +9,11 @@ function isIE() {
 
 /* cookie.JS
  ========================================================*/
-include('../../static.livedemo00.template-help.com/constrex_v1-2/js/jquery.cookie.js');
+include('js/jquery.cookie.js');
 
 /* Easing library
  ========================================================*/
-include('../../static.livedemo00.template-help.com/constrex_v1-2/js/jquery.easing.1.3.js');
+include('js/jquery.easing.1.3.js');
 
 
 /* Stick up menus
@@ -22,7 +22,7 @@ include('../../static.livedemo00.template-help.com/constrex_v1-2/js/jquery.easin
 (function ($) {
     var o = $('html');
     if (o.hasClass('desktop')) {
-        include('../../static.livedemo00.template-help.com/constrex_v1-2/js/tmstickup.js');
+        include('js/tmstickup.js');
 
         $(document).ready(function () {
             $('#stuck_container').TMStickUp({})
@@ -36,7 +36,7 @@ include('../../static.livedemo00.template-help.com/constrex_v1-2/js/jquery.easin
 (function ($) {
     var o = $('html');
     if (o.hasClass('desktop')) {
-        include('../../static.livedemo00.template-help.com/constrex_v1-2/js/jquery.ui.totop.js');
+        include('js/jquery.ui.totop.js');
 
         $(document).ready(function () {
             $().UItoTop({easingType: 'easeOutQuart'});
@@ -69,16 +69,16 @@ include('../../static.livedemo00.template-help.com/constrex_v1-2/js/jquery.easin
 
 
 
-;
-(function ($) {
-    function include(url) {
-	document.write('<script src="js/' + url + '"></script>');
-	return false;
-}
-	include('superfish.html');
-	jQuery(function () {
-})
-})(jQuery);
+// ;
+// (function ($) {
+//     function include(url) {
+// 	document.write('<script src="js/' + url + '"></script>');
+// 	return false;
+// }
+// 	include('superfish.html');
+// 	jQuery(function () {
+// })
+// })(jQuery);
 
 
 
@@ -88,7 +88,7 @@ include('../../static.livedemo00.template-help.com/constrex_v1-2/js/jquery.easin
 (function ($) {
     var o = $('.resp-tabs');
     if (o.length > 0) {
-        include('../../static.livedemo00.template-help.com/constrex_v1-2/js/jquery.responsive.tabs.js');
+        include('js/jquery.responsive.tabs.js');
 
         $(document).ready(function () {
             o.easyResponsiveTabs();
@@ -102,7 +102,7 @@ include('../../static.livedemo00.template-help.com/constrex_v1-2/js/jquery.easin
  ========================================================*/
 ;
 (function ($) {
-    include('../../static.livedemo00.template-help.com/constrex_v1-2/js/jquery.rd-navbar.js');
+    include('js/jquery.rd-navbar.js');
 })(jQuery);
 
 
@@ -135,7 +135,7 @@ include('../../static.livedemo00.template-help.com/constrex_v1-2/js/jquery.easin
     var o = document.getElementById("google-map");
     if (o) {
         include('//maps.google.com/maps/api/js?sensor=false');
-        include('../../static.livedemo00.template-help.com/constrex_v1-2/js/jquery.rd-google-map.js');
+        include('js/jquery.rd-google-map.js');
 
         $(document).ready(function () {
             var o = $('#google-map');
@@ -207,7 +207,7 @@ include('../../static.livedemo00.template-help.com/constrex_v1-2/js/jquery.easin
 
     if ((navigator.userAgent.toLowerCase().indexOf('msie') == -1 ) || (isIE() && isIE() > 9)) {
         if (o.hasClass('desktop')) {
-            include('../../static.livedemo00.template-help.com/constrex_v1-2/js/wow.js');
+            include('js/wow.js');
 
             $(document).ready(function () {
                 new WOW().init();
@@ -272,10 +272,10 @@ document.write('<meta name="viewport" content="width=device-width,initial-scale=
 var o = $('#camera');
     if (o.length > 0) {
         if (!(isIE() && (isIE() > 9))) {
-            include('../../static.livedemo00.template-help.com/constrex_v1-2/js/jquery.mobile.customized.min.js');
+            include('js/jquery.mobile.customized.min.js');
         }
 
-        include('../../static.livedemo00.template-help.com/constrex_v1-2/js/camera.js');
+        include('js/camera.js');
 
         $(document).ready(function () {
             o.camera({
@@ -305,7 +305,7 @@ var o = $('#camera');
 (function ($) {
     var o = $('.form-label');
     if (o.length) {
-        include('../../static.livedemo00.template-help.com/constrex_v1-2/js/mailform-1/jquery.rd-input-label.js');
+        include('js/mailform-1/jquery.rd-input-label.js');
 
         $(document).ready(function () {
             o.RDInputLabel();
@@ -345,8 +345,8 @@ var o = $('#camera');
 (function ($) {
     var o = $('.rd-mailform');
     if (o.length > 0) {
-        include('../../static.livedemo00.template-help.com/constrex_v1-2/js/mailform-1/jquery.form.min.js');
-        include('../../static.livedemo00.template-help.com/constrex_v1-2/js/mailform-1/jquery.rd-mailform.min.js');
+        include('js/mailform-1/jquery.form.min.js');
+        include('js/mailform-1/jquery.rd-mailform.min.js');
 
         $(document).ready(function () {
             var o = $('.rd-mailform');
@@ -398,8 +398,8 @@ var o = $('#camera');
 ;
 (function ($) {
     if($('.mailform-sub').hasClass('mailform-sub')) {
-        include('../../static.livedemo00.template-help.com/constrex_v1-2/js/mailform/jquery.form.min.js');
-        include('../../static.livedemo00.template-help.com/constrex_v1-2/js/mailform/jquery.rd-mailform.js');
+        include('js/mailform/jquery.form.min.js');
+        include('js/mailform/jquery.rd-mailform.js');
     }
 })(jQuery);
 
@@ -411,22 +411,22 @@ var o = $('#camera');
 (function ($) {
     var o = $('.search-form');
     if (o.length > 0) {
-        include('../../static.livedemo00.template-help.com/constrex_v1-2/js/TMSearch.js');
+        include('js/TMSearch.js');
     }
 })(jQuery);
 
 
 
 /* Facebook
-========================================================*/
+========================================================
 
 ;(function(d, s, id) {
 var js, fjs = d.getElementsByTagName(s)[0];
 if (d.getElementById(id)) return;
 js = d.createElement(s); js.id = id;
-js.src = "../../connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.3";
+js.src = "connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.3";
 fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));
+}(document, 'script', 'facebook-jssdk'));*/
 
 ;(function ($) {
 var o = $('.fb-page');
@@ -471,9 +471,9 @@ o
 ;(function ($) {
     var o = $('.thumb');
     if (o.length > 0) {
-        include('../../static.livedemo00.template-help.com/constrex_v1-2/js/jquery.fancybox.js');
-        include('../../static.livedemo00.template-help.com/constrex_v1-2/js/jquery.fancybox-media.js');
-        include('../../static.livedemo00.template-help.com/constrex_v1-2/js/jquery.fancybox-buttons.js');
+        include('js/jquery.fancybox.js');
+        include('js/jquery.fancybox-media.js');
+        include('js/jquery.fancybox-buttons.js');
         $(document).ready(function () {
             o.fancybox();
         });
@@ -484,7 +484,7 @@ o
 // =============================================*/
 ;(function ($) {
     if($('header').hasClass('scrollto')) {
-        include('../../static.livedemo00.template-help.com/constrex_v1-2/js/scrollTo.js');
+        include('js/scrollTo.js');
     }
 })(jQuery);
 
@@ -665,7 +665,7 @@ o
  */
 ;
 (function ($) {
-    include('../../static.livedemo00.template-help.com/constrex_v1-2/js/countdown.js');
+    include('js/countdown.js');
     var o = $('.countdown'),
         type = o.attr('data-type'),
         time = o.attr('data-time'),
@@ -694,7 +694,7 @@ o
 /* Parallax
 =============================================*/
 ;(function ($) {
-    include('../../static.livedemo00.template-help.com/constrex_v1-2/js/jquery.rd-parallax.js');
+    include('js/jquery.rd-parallax.js');
 })(jQuery);
 
 
