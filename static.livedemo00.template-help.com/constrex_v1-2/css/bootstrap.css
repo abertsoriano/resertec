@@ -2532,7 +2532,7 @@ mark,
   color: #454545;
 }
 .bg-primary {
-  background: #efb814;
+  background: #EC1C24;
 }
 .bg-secondary {
   background: #333333;
@@ -6219,6 +6219,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-static-top {
   z-index: 1000;
+  background-color: rgba(0, 0, 0, .6);
 }
 @media (min-width: 768px) {
   .navbar-static-top {
@@ -6318,9 +6319,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     float: left;
   }
   .navbar-nav > li > a {
-    padding: 11px 21px 11px;
-    font-size: 18px;
-    font-weight: 400;
+    padding: 11px 10px;
+    font-size: 14px;
     display: block;
     text-transform: uppercase;
     letter-spacing: 0;
@@ -9152,4 +9152,13 @@ button.close {
   .hidden-print {
     display: none !important;
   }
+}
+.border-right {
+  border-right: 2px solid #EC1C24;
+}
+.well5 h6 {
+  color: #EC1C24;
+}
+.well5 li > div {
+  padding: 20px 40px
 }
