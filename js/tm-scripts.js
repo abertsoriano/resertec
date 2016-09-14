@@ -282,7 +282,7 @@ var o = $('#camera');
                 autoAdvance: true,
                 height: '42.23170731707317%',
                 minHeight: '350px',
-                pagination: true,
+                pagination: false,
                 thumbnails: false,
                 playPause: false,
                 hover: false,

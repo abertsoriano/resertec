@@ -2320,14 +2320,6 @@ h3 + * {
     padding: 0 10%;
   }
 }
-.ins_r {
-  padding-right: 18%;
-}
-@media (max-width: 991px) {
-  .ins_r {
-    padding-right: 1%;
-  }
-}
 @media (min-width: 1200px) {
   .inset-1 {
     padding-top: 103px;
@@ -9152,6 +9144,9 @@ button.close {
   .hidden-print {
     display: none !important;
   }
+}
+.red {
+  color: #EC1C24;
 }
 .border-right {
   border-right: 2px solid #EC1C24;
