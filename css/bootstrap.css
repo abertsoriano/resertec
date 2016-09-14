@@ -6300,6 +6300,10 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   left: 0;
   border-left: 1px solid rgba(255, 255, 255, 0.5);
 }
+.navbarra:before {
+  right: 0;
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+}
 .navbar-brand:after {
   right: 0;
   border-right: 1px solid rgba(255, 255, 255, 0.5);
@@ -6355,7 +6359,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default {
-  background-color: transparent;
+  background-color: #EC1C24;
   border-color: none;
 }
 .navbar-default .navbar-brand {
@@ -7872,6 +7876,10 @@ a.list-group-item-danger.active:focus {
   padding-bottom: 187px;
   padding-top: 109px;
 }
+.well2nosotros {
+  padding-bottom: 387px;
+  padding-top: 109px;
+}
 @media (max-width: 767px) {
   .well2 {
     padding-top: 90px;
@@ -7912,6 +7920,10 @@ a.list-group-item-danger.active:focus {
 .well5 {
   padding-bottom: 74px;
   padding-top: 55px;
+}
+.well5nosotros{
+  padding-bottom: 74px;
+  padding-top: 5px;
 }
 .well5-mod {
   padding-bottom: 84px;
