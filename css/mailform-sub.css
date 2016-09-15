@@ -307,19 +307,39 @@
 .rd-progress {
   background: #111;
   color: #fff;
+
 }
 /* MF Controls
 ========================================================*/
 .mailform-sub .form-group .btn {
-  background: #454444;
-  color: #ffffff;
+  background: #000;
+  color: #fff;
   padding: 21px 55px;
+  border-color: #000;
 }
 .mailform-sub .form-group .btn:hover {
-  color: #ffffff;
-  background-color: transparent;
-  border-color: #454444;
+  color: #EC1C24;
+  background-color: #fff;
+  border-color: #EC1C24;
 }
+
+
+/* MF Ver Mas
+========================================================*/
+.mailform-sub .form-group .btnv {
+  background: #EC1C24;
+  color: #fff;
+  padding: 2px 30px;
+  border-color: #EC1C24;
+  font-size: 18.5px;
+  font-weight: bold;
+}
+.mailform-sub .form-group .btnv:hover {
+  color: #EC1C24;
+  background-color: #fff;
+  border-color: #EC1C24;
+}
+
 .mailform-sub .form-group .btn:hover:active,
 .mailform-sub .form-group .btn:hover.active,
 .open > .dropdown-toggle.mailform-sub .form-group .btn:hover {
@@ -344,7 +364,7 @@ fieldset[disabled] .mailform-sub .form-group .btn:hover:active,
 .mailform-sub .form-group .btn:hover[disabled].active,
 fieldset[disabled] .mailform-sub .form-group .btn:hover.active {
   background-color: transparent;
-  border-color: #454444;
+  border-color: #000;
 }
 .mailform-sub .form-group .btn:hover .badge {
   color: transparent;
