@@ -1064,14 +1064,12 @@ th {
   background: #EC1C24;
   z-index: 999;
   box-shadow: 0 1px 2px #EC1C24;
-  /*background: rgba(0, 0, 0, 0.9);*/
-  padding-bottom: 8px;
 }
 .isStuck .navbar-header {
-  padding-top: 17px;
+  padding-top: 10px;
 }
 .isStuck .navbar-nav {
-  padding-top: 20px;
+  padding-top: 12px;
   padding-bottom: 7px;
 }
 .isStuck .search-form_toggle {
@@ -6241,6 +6239,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .navbar-fixed-bottom {
     border-radius: 0;
   }
+  .navbar-header a img {
+    height: 43px;
+  }
 }
 .navbar-fixed-top {
   top: 0;
@@ -6253,11 +6254,13 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-header {
   padding-left: 0px;
-  padding-top: 25px;
+  padding-top: 0px;
 }
 @media (max-width: 1199px) {
   .navbar-header {
-    padding-left: 0px;
+    padding-left: 0px; a img {
+      height: 43px;
+    }
   }
 }
 @media (min-width: 768px) {
@@ -6315,7 +6318,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-nav {
   padding-right: 0px;
-  padding-top: 25px;
+  padding-top: 4px;
 }
 @media (min-width: 768px) {
   .navbar-nav {
@@ -6327,9 +6330,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
   .navbar-nav > li > a {
     padding: 11px 1px;
-    font-size: 20px;
+    font-size: 15px;
     display: block;
-    /*text-transform: uppercase;*/
     letter-spacing: 0;
   }
 }
@@ -9187,4 +9189,7 @@ button.close {
 }
 .well5 li > div {
   padding: 20px 40px
+}
+.footer-logo {
+  height: 80px
 }
