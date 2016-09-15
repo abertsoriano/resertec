@@ -2222,7 +2222,7 @@ h6,
 p {
   line-height: 1.6;
   margin: 0;
-  font-size: 22.5px;
+  font-size: 21px;
 }
 .txt1 {
   font-size: 15px;
@@ -6241,6 +6241,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
   .navbar-header a img {
     height: 43px;
+    vertical-align: text-top;
   }
 }
 .navbar-fixed-top {
@@ -9192,4 +9193,18 @@ button.close {
 }
 .footer-logo {
   height: 80px
+}
+.navbarbarra {
+  border-left: 8px solid #EC1C24;
+}
+.content-middle-banners {
+  position: relative;
+}
+.franja-roja {
+  width: 100%;
+  height: 70px;
+  position: absolute;
+  background-color: rgba(255, 0, 0, 0.48);
+  z-index: 9;
+  bottom: 50%;
 }
