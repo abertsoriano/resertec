@@ -334,11 +334,6 @@
   font-size: 18px;
   font-weight: bold;
 }
-/*.mailform-sub .form-group .btnv:hover {
-  color: #EC1C24;
-  background-color: #fff;
-  border-color: #EC1C24;
-}*/
 
 .mailform-sub .form-group .btn:hover:active,
 .mailform-sub .form-group .btn:hover.active,
