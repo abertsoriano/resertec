@@ -20,7 +20,7 @@
   clear: both;
 }
 * + .mailform-sub {
-  margin-top: 52px;
+  margin-top: 32px;
 }
 .mailform-sub p {
   text-transform: uppercase;
@@ -329,16 +329,16 @@
 .mailform-sub .form-group .btnv {
   background: #EC1C24;
   color: #fff;
-  padding: 2px 30px;
+  padding: 5px 30px;
   border-color: #EC1C24;
-  font-size: 18.5px;
+  font-size: 18px;
   font-weight: bold;
 }
-.mailform-sub .form-group .btnv:hover {
+/*.mailform-sub .form-group .btnv:hover {
   color: #EC1C24;
   background-color: #fff;
   border-color: #EC1C24;
-}
+}*/
 
 .mailform-sub .form-group .btn:hover:active,
 .mailform-sub .form-group .btn:hover.active,

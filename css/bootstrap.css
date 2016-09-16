@@ -1065,9 +1065,6 @@ th {
   z-index: 999;
   box-shadow: 0 1px 2px #EC1C24;
 }
-.isStuck .navbar-header {
-  padding-top: 10px;
-}
 .isStuck .navbar-nav {
   padding-top: 12px;
   padding-bottom: 7px;
@@ -1113,7 +1110,7 @@ th {
 .toTop {
   width: 47px;
   height: 47px;
-  background: #c3950d;
+  background: #EC1C24;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
@@ -6319,21 +6316,14 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-nav {
   padding-right: 0px;
-  padding-top: 4px;
+  padding-top: 12px;
 }
 @media (min-width: 768px) {
-  .navbar-nav {
-    margin: 0;
-    font-family: 'Open Sans', sans-serif;
-  }
   .navbar-nav > li {
-    float: left;
+    display: inline-block;
   }
-  .navbar-nav > li > a {
-    padding: 11px 1px;
-    font-size: 15px;
-    display: block;
-    letter-spacing: 0;
+  .navbar-nav > li{
+    font-size: inherit;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
@@ -6356,6 +6346,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .navbar-right {
     float: right;
     margin-right: 0;
+    font-size: 15px
   }
   .navbar-right ~ .navbar-right {
     margin-right: 0;
@@ -9202,12 +9193,22 @@ button.close {
 }
 .franja-roja {
   width: 100%;
-  height: 70px;
+  height: 50px;
   position: absolute;
   background-color: rgba(255, 0, 0, 0.48);
   z-index: 9;
-  bottom: 50%;
+  bottom: 51.3%;
 }
 .bg-before-footer {
   background: url('../images/fondo.png') no-repeat 50% 50%;
+}
+#toTop i {
+  color: #fff;
+  font-size: .9em;
+  vertical-align: text-bottom;
+}
+.navbar-nav li+li:before {
+  padding: 0 5px;
+  color: #fff;
+  content: "|\00a0";
 }

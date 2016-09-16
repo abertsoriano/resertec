@@ -1714,6 +1714,3 @@
         }
     });
 })(window.jQuery, window, document);
-
-
-
