@@ -330,14 +330,14 @@
   background: #EC1C24;
   color: #fff;
   padding: 2px 30px;
-  border-color: #EC1C24;
+/border-color: transparent;
   font-size: 18.5px;
   font-weight: bold;
 }
 .mailform-sub .form-group .btnv:hover {
   color: #EC1C24;
   background-color: #fff;
-  border-color: #EC1C24;
+ border-color: transparent;
 }
 
 .mailform-sub .form-group .btn:hover:active,
