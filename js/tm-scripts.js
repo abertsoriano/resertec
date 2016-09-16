@@ -361,10 +361,10 @@ var o = $('#camera');
                                 message: 'Please use numbers only!'
                             },
                             '@NotEmpty': {
-                                message: 'Field should not be empty!'
+                                message: 'Este campo no puede estar Vacío!'
                             },
                             '@Email': {
-                                message: 'Enter valid e-mail address!'
+                                message: 'Ingrese correo válido!'
                             },
                             '@Phone': {
                                 message: 'Enter valid phone number!'

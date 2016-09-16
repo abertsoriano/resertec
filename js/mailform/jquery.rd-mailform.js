@@ -27,7 +27,7 @@
         'MF003': 'Please, define email field in your form!',
         'MF004': 'Please, define type of your form!',
         'MF254': 'Something went wrong with PHPMailer!',
-        'MF255': 'Aw, snap! Something went wrong.'
+        'MF255': 'Esperé, su correo fue enviado.'
     };
 
     /**
@@ -272,11 +272,11 @@
                 },
                 '@NotEmpty': {
                     rule: '([^\\s])',
-                    message: 'Field should not be empty!'
+                    message: 'Este campo no puede estar Vacío!'
                 },
                 '@Email': {
                     rule: '^(([\\w-]+(?:\\.[\\w-]+)*)@((?:[\\w-]+\\.)*\\w[\\w-]{0,66})\\.([a-z]{2,6}(?:\\.[a-z]{2})?)){0,}$',
-                    message: 'Enter valid e-mail address!'
+                    message: 'Ingrese correo válido!'
                 },
                 '@Phone': {
                     rule: '^(\\+?\\d{0,3}\\s*\\(?\\d{1,3}\\)?\\s*\\d{3}\\s*\\d{4}){0,}$',

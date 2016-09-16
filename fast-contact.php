@@ -30,14 +30,14 @@ if (trim($email) == '') {
 		$mail->CharSet = 'UTF-8';
 		$mail->isHTML(true);
 
-		$mail->From     = 'info@resertec.com.pe';
+		$mail->From     = 'al.soriano.thais@gmail.com';
 		$mail->FromName = 'Resertec';
 
 		$body = '<h2>De: '.$email.'</h2>';
 
 		$mail->Subject = 'Resertec :: newsletter';
 		$mail->Body    = $body;
-		$mail->addAddress('info@resertec.com.pe');
+		$mail->addAddress('al.soriano.thais@gmail.com');
 
 	    if ($mail->send())
 		{
