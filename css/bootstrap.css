@@ -9221,6 +9221,7 @@ button.close {
 list-style-type:disc;
 font-style: #fff;
 color: #ec1c24;
+padding-left: 20px;
 }
 
 .normal {
@@ -9230,4 +9231,12 @@ color: #ec1c24;
 }
 .normal th, .normal td {
   border: 1px solid #000;
+}
+.txtpprod {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 21px;
+  color: #747474;
+}
+.wellproductos{
+  padding-left: 250px;
 }
