@@ -9216,3 +9216,18 @@ button.close {
   color: #fff;
   content: "|\00a0";
 }
+.list-prroducts
+{
+list-style-type:disc;
+font-style: #fff;
+color: #ec1c24;
+}
+
+.normal {
+  width: 850px;
+  border: 1px solid #000;
+  border-collapse: collapse;
+}
+.normal th, .normal td {
+  border: 1px solid #000;
+}
