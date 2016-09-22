@@ -9226,11 +9226,11 @@ padding-left: 20px;
 
 .normal {
   width: 850px;
-  border: 1px solid #000;
+  border: 1px solid #ec1c24;
   border-collapse: collapse;
 }
 .normal th, .normal td {
-  border: 1px solid #000;
+  border: 1px solid #ec1c24;
 }
 .txtpprod {
   font-family: 'Open Sans', sans-serif;
@@ -9240,3 +9240,12 @@ padding-left: 20px;
 .wellproductos{
   padding-left: 250px;
 }
+
+.containertable {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 180px;
+  padding-right: 170px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 17px;
+  color: #747474;
