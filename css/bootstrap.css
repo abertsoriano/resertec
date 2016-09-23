@@ -2232,10 +2232,22 @@ p {
   font-weight: bold;
   color: #EC1C24;
 }
+.txtdir1co {
+  font-size: 20px;
+  font-weight: bold;
+  color: #EC1C24;
+  padding-bottom: 20px;
+}
 .txtdir2 {
   font-size: 17px;
   font-weight: bold;
   color: #000;
+}
+.txtdir2co {
+  font-size: 17px;
+  font-weight: bold;
+  color: #000;
+  padding-bottom: 20px;
 }
 * + .row {
   margin-top: 33px;
@@ -5369,9 +5381,12 @@ fieldset[disabled] .btn-warning:focus.active {
   background-color: #ffffff;
 }
 .btn-danger {
-  color: #ffffff;
-  background-color: transparent;
-  border-color: #f44236;
+    background: #EC1C24;
+    color: #fff;
+    padding: 5px 80px;
+    border-color: #EC1C24;
+    font-size: 21px;
+    font-weight: bold;
 }
 .btn-danger:active,
 .btn-danger.active,
@@ -9172,4 +9187,8 @@ button.close {
 }
 .well5 li > div {
   padding: 20px 40px
+}
+.wells80
+{
+  padding-bottom: 20px;
 }
