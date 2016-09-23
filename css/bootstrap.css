@@ -2236,7 +2236,13 @@ p {
   font-size: 20px;
   font-weight: bold;
   color: #EC1C24;
-  padding-bottom: 20px;
+  padding-bottom: 25px;
+}
+.txtdir1coo {
+  font-size: 30px;
+  font-weight: bold;
+  color: #EC1C24;
+  padding-bottom: 25px;
 }
 .txtdir2 {
   font-size: 17px;
@@ -2247,7 +2253,7 @@ p {
   font-size: 17px;
   font-weight: bold;
   color: #000;
-  padding-bottom: 20px;
+  padding-bottom: 25px;
 }
 * + .row {
   margin-top: 33px;
@@ -4379,7 +4385,7 @@ output {
 .form-control {
   display: block;
   width: 100%;
-  padding: 10px 15px;
+  padding: 5px 15px;
   font-size: 15px;
   line-height: 1.6;
   color: #454444;
