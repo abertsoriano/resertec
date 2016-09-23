@@ -1,0 +1,64 @@
+/* Custom CSS here*/
+.footer-logo {
+  height: 80px
+}
+.navbarbarra {
+  border-left: 8px solid #EC1C24;
+}
+.content-middle-banners {
+  position: relative;
+}
+.franja-roja {
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  background-color: rgba(255, 0, 0, 0.48);
+  z-index: 9;
+  bottom: 49%;
+}
+.bg-before-footer {
+  background: url('../images/fondo.png') no-repeat 10% 100%;
+}
+#toTop i {
+  color: #fff;
+  font-size: .9em;
+  vertical-align: text-bottom;
+  line-height: inherit;
+}
+.navbar-nav li+li:before {
+  padding: 0 5px;
+  color: #fff;
+  content: "|\00a0";
+}
+.list-prroducts {
+	list-style-type:disc;
+	font-style: #fff;
+	color: #ec1c24;
+	padding-left: 20px;
+}
+
+.normal {
+	border: 1px solid #ec1c24;
+	border-collapse: collapse;
+	font-size: 18px;
+}
+.normal th, .normal td {
+  border: 1px solid #ec1c24;
+}
+.txtpprod {
+  font-size: 18px;
+}
+.txtpprod p {
+	color: #747474;
+	margin-bottom: 10px;
+}
+.wellproductos{
+  padding-left: 250px;
+}
+
+.containertable {
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 17px;
+  color: #747474;
+}
