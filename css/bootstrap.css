@@ -2396,7 +2396,7 @@ h3 + * {
 }
 [class*='fa-']:before {
   font-family: 'FontAwesome';
-  color: inherit;
+  color: #EC1C24;
 }
 mark,
 .mark {
