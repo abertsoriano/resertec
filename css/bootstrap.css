@@ -180,7 +180,7 @@ table {
 }
 td,
 th {
-  padding: 0;
+  padding: 20px;
 }
 /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
 @media print {
@@ -9201,7 +9201,7 @@ button.close {
   position: absolute;
   background-color: rgba(255, 0, 0, 0.48);
   z-index: 9;
-  bottom: 43.3%;
+  bottom: 49%;
 }
 .bg-before-footer {
   background: url('../images/fondo.png') no-repeat 10% 100%;
