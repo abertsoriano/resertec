@@ -7879,7 +7879,7 @@ a.list-group-item-danger.active:focus {
   }
 }
 .well2 {
-  padding-bottom: 187px;
+  padding-bottom: 87px;
   padding-top: 109px;
 }
 .well2nosotros {
@@ -9201,24 +9201,31 @@ button.close {
 .tabletittle
 {
   background-color: #EC1C24;
+  font-family: 'HUMNST777 CN BT';18
+  font-size: 26px;
   color: #ffffff; 
 }
 .tabledes
 {
   background-color: #F8AAAE;
+  font-family: 'HUMNST777 CN BT';
+  font-size: 22px;
   color: #000;
   font-weight: bold; 
 }
 .trtableserv
 {
-  background-color: #BDBDBD;
+  background-color: rgba(189, 189, 189, 0.28);
 }
 .tdprop
 {
   font-weight: bold;
+  font-family: 'HUMNST777 CN BT';
+  font-size: 22px;
   color: #000;
 }
 .normal
 {
   color: #000;
+  font-family: 'Humanst521 Lt BT';
 }
