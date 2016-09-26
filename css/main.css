@@ -1,4 +1,24 @@
 /* Custom CSS here*/
+@font-face {
+  font-family: 'Humanist777BT-regular';
+  src: url('../fonts/Humanist777BT-RomanB.eot?#iefix') format('embedded-opentype'),  url('../fonts/Humanist777BT-RomanB.woff') format('woff'), url('../fonts/Humanist777BT-RomanB.ttf')  format('truetype'), url('../fonts/Humanist777BT-RomanB.svg#Humanist777BT-RomanB') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Humanist777BT-Bold';
+  src: url('../fonts/Humanist777BT-BoldCondensedB.eot?#iefix') format('embedded-opentype'),  url('../fonts/Humanist777BT-BoldCondensedB.woff') format('woff'), url('../fonts/Humanist777BT-BoldCondensedB.ttf')  format('truetype'), url('../fonts/Humanist777BT-BoldCondensedB.svg#Humanist777BT-BoldCondensedB') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Humanist777BT-regular';
+  color: #333;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Humanist777BT-Bold';
+}
 .footer-logo {
   height: 80px
 }
@@ -17,7 +37,14 @@
   bottom: 49%;
 }
 .bg-before-footer {
-  background: url('../images/fondo.png') no-repeat 10% 100%;
+  background: url('../images/fondo.png') no-repeat 50% 50%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.bg-before-footer p {
+  color: #333;
+  font-size: 1.1em;
+  font-family: 'Humanist777BT-Bold';
 }
 #toTop i {
   color: #fff;
@@ -49,7 +76,7 @@
   font-size: 18px;
 }
 .txtpprod p {
-	color: #747474;
+	color: #333;
 	margin-bottom: 10px;
 }
 .wellproductos{
@@ -61,4 +88,33 @@
   margin-left: auto;
   font-size: 17px;
   color: #747474;
+}
+.list-services {
+  margin-left: 30px;
+}
+.service-table caption {
+  background-color: #ec1c24;
+  color: #fff;
+}
+.sub-title {
+  font-size: 2em;
+  line-height: 1;
+}
+.sub-title.title-md {
+  font-size: 1.6em;
+}
+.sub-title.title-sm {
+  font-size: 1.2em;
+}
+.line-he-m {
+  line-height: 1.4
+}
+.line-he-xl {
+  line-height: 2
+}
+.vision-mision p {
+  color: #333;
+}
+.red {
+  color: #ec1c24
 }
