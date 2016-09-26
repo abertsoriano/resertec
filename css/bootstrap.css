@@ -7854,7 +7854,7 @@ a.list-group-item-danger.active:focus {
   }
 }
 .well2 {
-  padding-bottom: 187px;
+  padding-bottom: 87px;
   padding-top: 109px;
 }
 .well2nosotros {
@@ -9170,4 +9170,31 @@ button.close {
 .wells80
 {
   padding-bottom: 20px;
+}
+.tabletittle
+{
+  background-color: #EC1C24;
+  font-size: 26px;
+  color: #ffffff;
+}
+.tabledes
+{
+  background-color: #F8AAAE;
+  font-size: 22px;
+  color: #000;
+  font-weight: bold;
+}
+.trtableserv
+{
+  background-color: rgba(189, 189, 189, 0.28);
+}
+.tdprop
+{
+  font-family: 'Humanist777BT-Bold';
+  font-size: 22px;
+  color: #000;
+}
+.normal
+{
+  color: #000;
 }

@@ -96,6 +96,10 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #ec1c24;
   color: #fff;
 }
+.service-table thead th {
+  font-size: 1.3em;
+  background-color: #ffb3b3;
+}
 .sub-title {
   font-size: 2em;
   line-height: 1;
