@@ -9198,3 +9198,14 @@ button.close {
 {
   padding-bottom: 20px;
 }
+.tabletittle
+{
+  background-color: #EC1C24;
+  color: #ffffff; 
+}
+.tabledes
+{
+  background-color: #F8AAAE;
+  color: #000;
+  font-weight: bold; 
+}
