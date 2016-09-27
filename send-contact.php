@@ -1,10 +1,8 @@
 <?php
 if (!$_POST) exit;
 
-require 'mailer/PHPMailerAutoload.php';
-
 function sendMessage($values, $message, $subject) {
-    require 'PHPMailerAutoload.php';
+    require 'mailer/PHPMailerAutoload.php';
 
     $mail = new PHPMailer(true);
 
