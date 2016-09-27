@@ -9174,17 +9174,15 @@ button.close {
 .tabletittle
 {
   background-color: #EC1C24;
-  font-family: 'HUMNST777 CN BT';18
   font-size: 26px;
-  color: #ffffff; 
+  color: #ffffff;
 }
 .tabledes
 {
   background-color: #F8AAAE;
-  font-family: 'HUMNST777 CN BT';
   font-size: 22px;
   color: #000;
-  font-weight: bold; 
+  font-weight: bold;
 }
 .trtableserv
 {
@@ -9193,12 +9191,10 @@ button.close {
 .tdprop
 {
   font-weight: bold;
-  font-family: 'HUMNST777 CN BT';
   font-size: 22px;
   color: #000;
 }
 .normal
 {
   color: #000;
-  font-family: 'Humanst521 Lt BT';
 }
