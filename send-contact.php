@@ -17,7 +17,7 @@ function sendMessage($values, $message, $subject) {
 
         $mail->From = $values['correo'];
 
-        $mail->addAddress('rcsialer1@hotmail.com', 'Información');
+        $mail->addAddress('al.soriano.thais@gmail.com', 'Información');
         // $mail->addCC($values['correo'], $values['nombre']);
 
         $mail->isHTML(true);
