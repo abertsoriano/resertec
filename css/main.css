@@ -48,7 +48,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #toTop i {
   color: #fff;
-  font-size: .9em;
+  font-size: 1.5em;
   vertical-align: text-bottom;
   line-height: inherit;
 }
@@ -121,4 +121,20 @@ h1, h2, h3, h4, h5, h6 {
 }
 .red {
   color: #ec1c24
+}
+form input.form-control {
+  border: none;
+  border-bottom: 1px solid #999;
+  box-shadow: none;
+}
+form input.form-control:focus {
+  box-shadow: none;
+}
+.fix-padding-btn {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.btn:hover, .btn:focus, .btn:active {
+  background-color: #EC1C24;
+  color: #fff;
 }
