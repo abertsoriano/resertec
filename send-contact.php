@@ -16,6 +16,7 @@ function sendMessage($values, $message, $subject) {
         $mail->CharSet = 'UTF-8';
 
         $mail->From = $values['correo'];
+        $mail->FromName = $values['nombre'];
 
         $mail->addAddress('al.soriano.thais@gmail.com', 'Información');
         // $mail->addCC($values['correo'], $values['nombre']);
@@ -55,7 +56,7 @@ if (empty($values['nombre'])) {
 } else if (empty($values['mensaje'])) {
     $error_message = ['error_message' => 'Debe escribir su mensaje', 'code' => 412];
 } else {
-    $message = nl2br('<br><b>Correo:</b> ' . $values['correo'] . '<br><br><blockquote style="border-left:5px solid #CCC;padding: 4px 7px;">' . $values['mensaje'] . '</blockquote>');
+    $message = nl2br('<br><b>Correo:</b> ' . $values['correo'] . '<br><b>Celular:</b> ' . $values['celular'] . '<br><br><blockquote style="border-left:5px solid #CCC;padding: 4px 7px;">' . $values['mensaje'] . '</blockquote>');
     $error_message = sendMessage($values, $message, 'Mensaje enviado desde la página web');
 }
 
