@@ -39,7 +39,7 @@ if (trim($email) == '') {
 		$mail->Body    = $body;
 		$mail->addAddress('al.soriano.thais@gmail.com');
 
-	    if ($mail->send())
+		if ($mail->send())
 		{
 			$json = "MF000";
 		}
