@@ -138,3 +138,16 @@ form input.form-control:focus {
   background-color: #EC1C24;
   color: #fff;
 }
+@media (max-width: 991px) {
+  .camera_container {
+    padding-bottom: 322px;
+  }
+}
+@media (max-width: 767px) {
+  .camera_container {
+    padding-bottom: 322px;
+  }
+  .border-right {
+    border:none;
+  }
+}
