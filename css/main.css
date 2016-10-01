@@ -138,6 +138,10 @@ form input.form-control:focus {
   background-color: #EC1C24;
   color: #fff;
 }
+.clientes .col-sm-4 {
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
 @media (max-width: 991px) {
   .camera_container {
     padding-bottom: 322px;
