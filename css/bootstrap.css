@@ -1348,10 +1348,47 @@ th {
 }
 .parallax_cnt {
   position: relative;
+  background-color: rgba(35, 31, 32, 0.38);
+  margin-left: 200px;
+  margin-right: 200px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .parallax a.link {
   text-decoration: underline;
 }
+
+/*==================  RD Parallax    ======================*/
+.secparallax {
+  position: relative;
+  overflow: hidden;
+}
+.secparallax_image,
+.secparallax_pattern {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  background-position: center center;
+  will-change: transform;
+}
+.secparallax_image {
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.secparallax_pattern {
+  background-repeat: repeat;
+}
+.secparallax_cnt {
+  position: relative;
+}
+.secparallax a.link {
+  text-decoration: underline;
+}
+
+
 /*==================   RD Mobile Menu    =====================*/
 .rd-mobilemenu {
   display: none;
@@ -9197,4 +9234,7 @@ button.close {
 .normal
 {
   color: #000;
+}
+.imgicons {
+  padding-bottom: 10px;
 }
