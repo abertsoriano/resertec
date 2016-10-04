@@ -14,6 +14,7 @@
 
 body {
   font-family: 'Humanist777BT-regular';
+  font-size: 14px;
   color: #333;
 }
 h1, h2, h3, h4, h5, h6 {
@@ -27,6 +28,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 .content-middle-banners {
   position: relative;
+}
+.jumbotron .head, .text-shadow-black {
+  text-shadow: 1px 1px 2px #000;
+  -moz-text-shadow: 1px 1px 2px #000;
+}
+.no-txt-shadow {
+  text-shadow: none !important;
+  -moz-text-shadow: none !important;
 }
 .franja-roja {
   width: 100%;
@@ -103,6 +112,11 @@ h1, h2, h3, h4, h5, h6 {
 .sub-title {
   font-size: 2em;
   line-height: 1;
+  text-shadow: 1px 1px 2px #000;
+  -moz-text-shadow: 1px 1px 2px #000;
+}
+.fs2em {
+  font-size: 2em;
 }
 .sub-title.title-md {
   font-size: 1.6em;
@@ -142,9 +156,47 @@ form input.form-control:focus {
   margin-bottom: 40px;
   margin-top: 40px;
 }
+.wow {
+  visibility: hidden;
+}
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.col-xs-15 {
+    width: 20%;
+    float: left;
+}
+@media (min-width: 768px) {
+.col-sm-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 992px) {
+    .col-md-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 1200px) {
+    .col-lg-15 {
+        width: 20%;
+        float: left;
+    }
+}
+
 @media (max-width: 991px) {
   .camera_container {
     padding-bottom: 322px;
+  }
+  #main-products img {
+    height: 90px
   }
 }
 @media (max-width: 767px) {
@@ -153,5 +205,11 @@ form input.form-control:focus {
   }
   .border-right {
     border:none;
+  }
+  #main-products > div {
+    margin-bottom: 25px
+  }
+  #main-products img {
+    height: inherit;
   }
 }
