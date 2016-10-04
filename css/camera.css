@@ -1,24 +1,15 @@
-/*========================================================
-                        Camera
-=========================================================*/
 .camera_container {
   position: relative;
-  padding-bottom: 52%;
-  margin-top: -78px;
+  border-bottom: 15px solid #EC1C24;
 }
 @media (max-width: 767px) {
   .camera_container {
     margin-top: 0;
   }
 }
-@media (max-width: 903.65239295px) {
-  .camera_container {
-    padding-bottom: 350px;
-  }
-}
 .camera_wrap {
   display: none;
-  position: absolute;
+  position: static;
   left: 0;
   top: 0;
   width: 100%;

@@ -159,6 +159,24 @@ form input.form-control:focus {
 p {
     font-size: 1.3em;
 }
+#productos, #servicios {
+  background: url('../images/bg-red-transparent.png') repeat-x;
+}
+#productos {
+  background-position: center bottom;
+}
+#servicios {
+  background-position: center top;
+}
+.parallax_image {
+  z-index: -1;
+}
+.fa-chevron-up:before {
+  line-height: 2.1
+}
+.navbar-nav li.active a {
+  color: #000 !important;
+}
 .col-xs-15,
 .col-sm-15,
 .col-md-15,
@@ -192,17 +210,23 @@ p {
 }
 
 @media (max-width: 991px) {
-  .camera_container {
-    padding-bottom: 322px;
-  }
   #main-products img {
     height: 90px
   }
+  .navbar-nav li+li:before {
+    padding: 0 0 0 2px;
+  }
+  .navbar-nav > li > a {
+    padding-left: 6px;
+    padding-right: 6px;
+  }
+  .container {
+    width: auto;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
 }
 @media (max-width: 767px) {
-  .camera_container {
-    padding-bottom: 322px;
-  }
   .border-right {
     border:none;
   }
