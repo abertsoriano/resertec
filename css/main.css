@@ -177,6 +177,9 @@ p {
 .navbar-nav li.active a {
   color: #000 !important;
 }
+.well2nosotros .parallax_cnt {
+  display: none;
+}
 .col-xs-15,
 .col-sm-15,
 .col-md-15,
@@ -235,5 +238,12 @@ p {
   }
   #main-products img {
     height: inherit;
+  }
+  .tdprop, .service-table {
+    font-size: .8rem;
+  }
+  .expand-pad {
+    padding-left: 80px;
+    padding-right: 80px;
   }
 }
