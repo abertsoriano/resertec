@@ -1348,6 +1348,11 @@ th {
 }
 .parallax_cnt {
   position: relative;
+  background-color: rgba(35, 31, 32, 0.38);
+  margin-left: 200px;
+  margin-right: 200px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .parallax a.link {
   text-decoration: underline;
