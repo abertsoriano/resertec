@@ -112,6 +112,9 @@ h1, h2, h3, h4, h5, h6 {
   text-shadow: 1px 1px 2px #000;
   -moz-text-shadow: 1px 1px 2px #000;
 }
+.fs1-7em {
+  font-size: 1.7em;
+}
 .fs2em {
   font-size: 2em;
 }
@@ -132,6 +135,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 .red {
   color: #ec1c24
+}
+.bg-black {
+  background-color: #231F20;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 form input.form-control {
   border: none;
@@ -159,13 +167,13 @@ form input.form-control:focus {
 p {
     font-size: 1.3em;
 }
-#productos, #servicios {
+#productos, #servicios, .bg-trans {
   background: url('../images/bg-red-transparent.png') repeat-x;
 }
-#productos {
+#productos, .bg-bottom {
   background-position: center bottom;
 }
-#servicios {
+#servicios, .bg-top {
   background-position: center top;
 }
 .parallax_image {
