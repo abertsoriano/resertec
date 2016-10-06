@@ -24,7 +24,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 80px
 }
 .navbarbarra {
-  border-left: 8px solid #EC1C24;
+  border-left: 12px solid #EC1C24;
 }
 .content-middle-banners {
   position: relative;
@@ -179,6 +179,13 @@ p {
 }
 .well2nosotros .parallax_cnt {
   display: none;
+}
+.pl40 {
+  padding-left: 40px;
+}
+#main-products .content-icon {
+  display: block;
+  height: 120px;
 }
 .col-xs-15,
 .col-sm-15,

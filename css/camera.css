@@ -1,6 +1,5 @@
 .camera_container {
   position: relative;
-  border-bottom: 15px solid #EC1C24;
 }
 @media (max-width: 767px) {
   .camera_container {
