@@ -36,13 +36,11 @@ include('js/jquery.easing.1.3.js');
 ;
 (function ($) {
     var o = $('html');
-    if (o.hasClass('desktop')) {
-        include('js/jquery.ui.totop.js');
+    include('js/jquery.ui.totop.js');
 
-        $(document).ready(function () {
-            $().UItoTop({easingType: 'easeOutQuart'});
-        });
-    }
+    $(document).ready(function () {
+        $().UItoTop({easingType: 'easeOutQuart'});
+    });
 })(jQuery);
 
 /* EqualHeights
