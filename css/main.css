@@ -1,3 +1,7 @@
+@import 'bootstrap.css';
+@import 'camera.css';
+@import 'mailform-sub.css';
+
 /* Custom CSS here*/
 @font-face {
   font-family: 'Humanist777BT-regular';
@@ -160,6 +164,7 @@ form input.form-control:focus {
 .clientes .col-sm-4 {
   margin-bottom: 40px;
   margin-top: 40px;
+  height: 120px
 }
 .wow {
   visibility: hidden;
