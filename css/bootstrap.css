@@ -6278,7 +6278,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     border-radius: 0;
   }
   .navbar-header a img {
-    height: 43px;
+    height: 50px;
     vertical-align: text-top;
   }
 }
@@ -6357,7 +6357,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-nav {
   padding-right: 0px;
-  padding-top: 12px;
+  padding-top: 17px;
 }
 @media (min-width: 768px) {
   .navbar-nav > li {
@@ -6396,6 +6396,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-default {
   background-color: #EC1C24;
   border-color: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .navbar-default .navbar-brand {
   color: #ffffff;
