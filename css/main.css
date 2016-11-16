@@ -97,7 +97,6 @@ h1, h2, h3, h4, h5, h6 {
 .normal {
 	border: 1px solid #ec1c24;
 	border-collapse: collapse;
-	font-size: 18px;
 }
 .normal th, .normal td {
   border: 1px solid #ec1c24;
@@ -114,7 +113,7 @@ h1, h2, h3, h4, h5, h6 {
   padding-bottom: 15px;
 }
 .well5nosotros .navbarbarra p {
-  font: 29px 'Humanist777BT-LightB';
+  font-family: 'Humanist777BT-LightB';
  }
  .product-list {
   font: 16px 'Humanist777BT-LightB';
@@ -196,7 +195,7 @@ form input.form-control:focus {
   visibility: hidden;
 }
 p {
-    font-size: 1.3em;
+    font-size: 16px;
 }
 #productos, #servicios, .bg-trans {
   background: url('../images/bg-red-transparent.png') repeat-x;
