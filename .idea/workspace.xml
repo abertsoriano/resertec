@@ -2,150 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23ccb9e7-6584-4352-9206-cf13ecda75ab" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/Humanist777BT-LightB.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/Humanist777BT-LightB.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/Humanist777BT-LightB.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/bg-red-transparent.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/clientes/mini_cerro_verde.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/clientes/mini_petroperu.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/clientes/mini_pluspetrol.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/clientes/mini_repsol.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/clientes/mini_terminales_peru.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/clientes/mini_vopak.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/close.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/galeria/Aberdeen.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/galeria/CrunchOil.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/galeria/Eckel.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/galeria/Extra_01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/galeria/Extra_02.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/galeria/FMC_Measurement_Solutions.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/galeria/Forum.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/galeria/Groth.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/galeria/Honeywell_Enraf_Fluid_Technology.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/galeria/Honeywell_Enraf_Terminal_Automation.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/galeria/Plidco.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/galeria/schillig.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/galeria/scully.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/galeria/sgi.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/galeria/tdw.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/galeria/wems.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/galeria/wwt.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/icon_galeria.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/logo_rojo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/logos/a_dynamics.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/logos/akerSolutions.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/logos/bronco.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/logos/bronco.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/logos/bruno_schillig.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/logos/bruno_schilling.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/logos/catalytics.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/logos/clampon.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/logos/corpro.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/logos/corpro.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/logos/crunch_oil.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/logos/eckel.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/logos/energroup.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/logos/energroup.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/logos/flexonics.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/logos/flexonics_senior.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/logos/fmc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/logos/forum.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/logos/forum.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/logos/groth.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/logos/honeywell.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/logos/honeywell.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/logos/ifa.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/logos/ifa_company.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/logos/oilfield.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/logos/plidco.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/logos/premiere.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/logos/red_sgi.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/logos/redlands.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/logos/scully.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/logos/scully.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/logos/sofec.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/logos/sofec.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/logos/stssc.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/logos/tapcoenpro.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/logos/teledrift.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/logos/tercel.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/logos/tiw.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/logos/twd.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/logos/ultraflote.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/logos/ultraflote.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/logos/western.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/logos/wwt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/next.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/nosotros.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/nosotros_.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/page-1_img1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/page-1_img2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/page-1_img3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/page-1_img4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/parallax1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/parallax2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/parallax3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/parallax3_.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/prev.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/productoss.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/slide1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/slide2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/slick/ajax-loader.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/slick/fonts/slick.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/slick/fonts/slick.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/slick/fonts/slick.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/Humanist777BT-LightB.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/plugins.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/slick/config.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/slick/fonts/slick.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/slick/slick-theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/slick/slick-theme.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/slick/slick-theme.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/slick/slick.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/slick/slick.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/slick/slick.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/slick/slick.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/slick/slick.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resertec.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/galeria.blade.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/page-1_img1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/page-1_img2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/page-1_img3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/page-1_img4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/page-1_img5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/send-contact.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/page-1_img5.jpg" afterPath="$PROJECT_DIR$/public/images/page-1_img5.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/page-1_img5origen.png" afterPath="$PROJECT_DIR$/public/images/page-1_img5origen.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/page-1_img6.png" afterPath="$PROJECT_DIR$/public/images/page-1_img6.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/page-1_img7.png" afterPath="$PROJECT_DIR$/public/images/page-1_img7.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/productos.jpg" afterPath="$PROJECT_DIR$/public/images/productos.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/WebController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/WebController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/bootstrap.css" afterPath="$PROJECT_DIR$/public/css/bootstrap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/camera.css" afterPath="$PROJECT_DIR$/public/css/camera.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/mailform-sub.css" afterPath="$PROJECT_DIR$/public/css/mailform-sub.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/main.css" afterPath="$PROJECT_DIR$/public/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/rd-mailform-2.css" afterPath="$PROJECT_DIR$/public/css/rd-mailform-2.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/camera.js" afterPath="$PROJECT_DIR$/public/js/camera.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery.rd-navbar.js" afterPath="$PROJECT_DIR$/public/js/jquery.rd-navbar.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery.rd-parallax.js" afterPath="$PROJECT_DIR$/public/js/jquery.rd-parallax.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/tm-scripts.js" afterPath="$PROJECT_DIR$/public/js/tm-scripts.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/tmstickup.js" afterPath="$PROJECT_DIR$/public/js/tmstickup.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/clientes.blade.php" afterPath="$PROJECT_DIR$/resources/views/clientes.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/contacto.blade.php" afterPath="$PROJECT_DIR$/resources/views/contacto.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/layouts/master_web.blade.php" afterPath="$PROJECT_DIR$/resources/views/layouts/master_web.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/nosotros.blade.php" afterPath="$PROJECT_DIR$/resources/views/nosotros.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/productos.blade.php" afterPath="$PROJECT_DIR$/resources/views/productos.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/servicios.blade.php" afterPath="$PROJECT_DIR$/resources/views/servicios.blade.php" />
     </list>
     <ignored path="resertec.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -177,21 +34,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="192" column="0" selection-start-line="192" selection-start-column="0" selection-end-line="192" selection-end-column="0" />
-              <folding>
-                <marker date="1481573584000" expanded="false" signature="430:482" ph="..." />
-                <marker date="1481573584000" expanded="true" signature="483:794" ph="..." />
-                <marker date="1481573584000" expanded="true" signature="556:783" ph="..." />
-                <marker date="1481573584000" expanded="true" signature="652:772" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="home.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -202,12 +44,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="welcome.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
+      <file leaf-file-name="master_web.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/layouts/master_web.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-              <folding />
+            <state relative-caret-position="239">
+              <caret line="36" column="65" selection-start-line="36" selection-start-column="65" selection-end-line="36" selection-end-column="65" />
+              <folding>
+                <marker date="1481575660000" expanded="false" signature="458:510" ph="..." />
+                <marker date="1481575660000" expanded="true" signature="511:807" ph="..." />
+                <marker date="1481575660000" expanded="true" signature="581:799" ph="..." />
+                <marker date="1481575660000" expanded="true" signature="674:791" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -222,21 +69,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="142" column="77" selection-start-line="142" selection-start-column="77" selection-end-line="142" selection-end-column="77" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fast-contact.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fast-contact.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="2415">
+              <caret line="152" column="27" selection-start-line="152" selection-start-column="27" selection-end-line="152" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -283,7 +120,6 @@
         <option value="$PROJECT_DIR$/resources/views/clientes.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/nosotros.blade.php" />
         <option value="$PROJECT_DIR$/productos.html" />
-        <option value="$PROJECT_DIR$/resources/views/layouts/master_web.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/productos.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/servicios.blade.php" />
         <option value="$PROJECT_DIR$/contacto.html" />
@@ -293,6 +129,7 @@
         <option value="$PROJECT_DIR$/resources/views/galeria.blade.php" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/resources/views/index.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/master_web.blade.php" />
       </list>
     </option>
   </component>
@@ -358,6 +195,60 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="resertec" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resertec" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resertec" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resertec" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resertec" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layouts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resertec" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resertec" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -840,12 +731,12 @@
       <workItem from="1478097021513" duration="21000" />
       <workItem from="1478114671043" duration="15710000" />
       <workItem from="1478178631753" duration="46000" />
-      <workItem from="1481568987609" duration="5432000" />
+      <workItem from="1481568987609" duration="6432000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24416000" />
+    <option name="totallyTimeSpent" value="25416000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1680" height="1024" extended-state="6" />
@@ -894,16 +785,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/images/nosotros_.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/images/parallax3_.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/images/loading.gif">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -963,14 +844,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="617">
           <caret line="104" column="12" selection-start-line="104" selection-start-column="12" selection-end-line="104" selection-end-column="12" />
-          <folding>
-            <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1481570022000" expanded="false" signature="605:657" ph="..." />
-            <marker date="1481570022000" expanded="true" signature="658:979" ph="..." />
-            <marker date="1481570022000" expanded="true" signature="733:966" ph="..." />
-            <marker date="1481570022000" expanded="true" signature="831:953" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -986,13 +860,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="434">
           <caret line="102" column="12" selection-start-line="83" selection-start-column="2" selection-end-line="102" selection-end-column="12" />
-          <folding>
-            <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1481569863000" expanded="false" signature="556:608" ph="..." />
-            <marker date="1481569863000" expanded="true" signature="609:910" ph="..." />
-            <marker date="1481569863000" expanded="true" signature="680:901" ph="..." />
-            <marker date="1481569863000" expanded="true" signature="774:892" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1072,44 +940,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="12" selection-end-column="66" />
-          <folding>
-            <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#td#0;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#div#1;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#1;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#div#1;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#tr#2;n#tbody#0;n#table#0;n#div#0;n#div#1;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#tr#4;n#tbody#0;n#table#0;n#div#0;n#div#1;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#tr#6;n#tbody#0;n#table#0;n#div#0;n#div#1;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#tr#8;n#tbody#0;n#table#0;n#div#0;n#div#1;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#tr#10;n#tbody#0;n#table#0;n#div#0;n#div#1;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#tr#12;n#tbody#0;n#table#0;n#div#0;n#div#1;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#tr#14;n#tbody#0;n#table#0;n#div#0;n#div#1;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#tr#16;n#tbody#0;n#table#0;n#div#0;n#div#1;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#tr#18;n#tbody#0;n#table#0;n#div#0;n#div#1;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#tr#20;n#tbody#0;n#table#0;n#div#0;n#div#1;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#tr#22;n#tbody#0;n#table#0;n#div#0;n#div#1;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#tr#24;n#tbody#0;n#table#0;n#div#0;n#div#1;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#tr#26;n#tbody#0;n#table#0;n#div#0;n#div#1;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#tr#28;n#tbody#0;n#table#0;n#div#0;n#div#1;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#tr#30;n#tbody#0;n#table#0;n#div#0;n#div#1;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#tr#32;n#tbody#0;n#table#0;n#div#0;n#div#1;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#tr#34;n#tbody#0;n#table#0;n#div#0;n#div#1;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#tr#36;n#tbody#0;n#table#0;n#div#0;n#div#1;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#tr#38;n#tbody#0;n#table#0;n#div#0;n#div#1;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#tr#40;n#tbody#0;n#table#0;n#div#0;n#div#1;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#tr#42;n#tbody#0;n#table#0;n#div#0;n#div#1;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#tr#44;n#tbody#0;n#table#0;n#div#0;n#div#1;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#tr#46;n#tbody#0;n#table#0;n#div#0;n#div#1;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#tr#48;n#tbody#0;n#table#0;n#div#0;n#div#1;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#tr#50;n#tbody#0;n#table#0;n#div#0;n#div#1;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#tr#52;n#tbody#0;n#table#0;n#div#0;n#div#1;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#tr#54;n#tbody#0;n#table#0;n#div#0;n#div#1;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#tr#56;n#tbody#0;n#table#0;n#div#0;n#div#1;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#tr#58;n#tbody#0;n#table#0;n#div#0;n#div#1;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1481572160000" expanded="false" signature="792:844" ph="..." />
-            <marker date="1481572160000" expanded="true" signature="845:1166" ph="..." />
-            <marker date="1481572160000" expanded="true" signature="920:1153" ph="..." />
-            <marker date="1481572160000" expanded="true" signature="1018:1140" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1153,14 +984,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="184" column="4" selection-start-line="184" selection-start-column="4" selection-end-line="188" selection-end-column="13" />
-          <folding>
-            <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1481573171000" expanded="false" signature="613:665" ph="..." />
-            <marker date="1481573171000" expanded="true" signature="666:956" ph="..." />
-            <marker date="1481573171000" expanded="true" signature="735:948" ph="..." />
-            <marker date="1481573171000" expanded="true" signature="826:941" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1176,28 +1000,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="381">
           <caret line="121" column="4" selection-start-line="121" selection-start-column="4" selection-end-line="121" selection-end-column="4" />
-          <folding>
-            <element signature="n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1481572651000" expanded="false" signature="605:657" ph="..." />
-            <marker date="1481572651000" expanded="true" signature="658:979" ph="..." />
-            <marker date="1481572651000" expanded="true" signature="733:966" ph="..." />
-            <marker date="1481572651000" expanded="true" signature="831:953" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/master_web.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="824">
-          <caret line="87" column="12" selection-start-line="87" selection-start-column="12" selection-end-line="87" selection-end-column="24" />
-          <folding>
-            <element signature="n#section#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1481572160000" expanded="false" signature="458:510" ph="..." />
-            <marker date="1481572160000" expanded="true" signature="511:807" ph="..." />
-            <marker date="1481572160000" expanded="true" signature="581:799" ph="..." />
-            <marker date="1481572160000" expanded="true" signature="674:791" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1213,27 +1016,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="381">
           <caret line="192" column="0" selection-start-line="192" selection-start-column="0" selection-end-line="192" selection-end-column="0" />
-          <folding>
-            <marker date="1481573584000" expanded="false" signature="430:482" ph="..." />
-            <marker date="1481573584000" expanded="true" signature="483:794" ph="..." />
-            <marker date="1481573584000" expanded="true" signature="556:783" ph="..." />
-            <marker date="1481573584000" expanded="true" signature="652:772" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
           <folding />
         </state>
       </provider>
@@ -1280,9 +1062,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1475033048000" expanded="true" signature="1894:1938" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1318,11 +1098,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/backblue.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fade.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="142" column="77" selection-start-line="142" selection-start-column="77" selection-end-line="142" selection-end-column="77" />
+        <state relative-caret-position="2415">
+          <caret line="152" column="27" selection-start-line="152" selection-start-column="27" selection-end-line="152" selection-end-column="27" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/master_web.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="36" column="65" selection-start-line="36" selection-start-column="65" selection-end-line="36" selection-end-column="65" />
+          <folding>
+            <marker date="1481575660000" expanded="false" signature="458:510" ph="..." />
+            <marker date="1481575660000" expanded="true" signature="511:807" ph="..." />
+            <marker date="1481575660000" expanded="true" signature="581:799" ph="..." />
+            <marker date="1481575660000" expanded="true" signature="674:791" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

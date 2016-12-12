@@ -32,14 +32,15 @@
 			          </a>
 			        </h1>
 			      </div>
+					<?php $currentUrl = Route::current()->uri(); ?>
 					<ul class="navbar-nav sf-menu navbar-right" data-type="navbar">
-			        	<li class="active"><a href="{{ url('/') }}">Inicio</a></li>
-						<li><a href="{{ url('nosotros') }}">Nosotros</a></li>
-						<li><a href="{{ url('clientes') }}">Clientes</a></li>
-						<li><a href="{{ url('productos') }}">Productos</a></li>
-						<li><a href="{{ url('servicios') }}">Servicios</a></li>
-						<li><a href="{{ url('galeria') }}">Galería</a></li>
-						<li><a href="{{ url('contacto') }}">Contacto</a></li>
+			        	<li {{ $currentUrl === '' ? "class=active" : '' }}><a href="{{ url('/') }}">Inicio</a></li>
+						<li {{ $currentUrl === 'nosotros' ? "class=active" : '' }}><a href="{{ url('nosotros') }}">Nosotros</a></li>
+						<li {{ $currentUrl === 'clientes' ? "class=active" : '' }}><a href="{{ url('clientes') }}">Clientes</a></li>
+						<li {{ $currentUrl === 'productos' ? "class=active" : '' }}><a href="{{ url('productos') }}">Productos</a></li>
+						<li {{ $currentUrl === 'servicios' ? "class=active" : '' }}><a href="{{ url('servicios') }}">Servicios</a></li>
+						<li {{ $currentUrl === 'galeria' ? "class=active" : '' }}><a href="{{ url('galeria') }}">Galería</a></li>
+						<li {{ $currentUrl === 'contacto' ? "class=active" : '' }}><a href="{{ url('contacto') }}">Contacto</a></li>
 					</ul>
 			   </div>
 			  </nav>
