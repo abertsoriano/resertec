@@ -4,22 +4,22 @@
 <section class="well well1">
   <div class="container">
     <div class="row">
-      <div class="col-md-2 col-sm-6 col-xs-6 col-md-offset-1"></div>
-      <div class="col-md-2 col-sm-6 col-xs-6"></div>
-        <div class="col-md-2 col-sm-6 col-xs-6 wow fadeInLeft" data-wow-delay=".3s">
-          <img src="images/page-1_img4.png" alt="" class="center-block" />
-          <h5 class="ins_r text-center sub-title"><a href="#servicios">SERVICIOS</a></h5>
-        </div>
-      <div class="col-md-2 col-sm-6 col-xs-6"></div>
-      <div class="col-md-2 col-sm-6 col-xs-6"></div>
+      <div class="col-sm-2 hidden-xs"></div>
+      <div class="col-sm-2 hidden-xs"></div>
+      <div class="col-sm-4 col-xs-12 wow fadeInLeft" data-wow-delay=".5s">
+        <img src="{{ asset('images/page-1_img4.jpg') }}" alt="" class="center-block" />
+        <h5 class="ins_r text-center sub-title no-txt-shadow">SERVICIOS</h5>
+      </div>
+      <div class="col-sm-2 hidden-xs"></div>
+      <div class="col-md-2 hidden-xs"></div>
     </div>
   </div>
 </section>
 <section class="well ">
   <div class="container">
     <div class="wow fadeInLeft" data-wow-duration="2s">
-      <div class="navbarbarra col-sm-12 col-md-8 col-md-offset-2">
-        <ul class="list-unstyled txtpprod list-services">
+      <div class="navbarbarra col-sm-12 col-md-10 col-md-offset-1">
+        <ul class="list-unstyled txtpprod list-services product-list">
           <li class="list-prroducts">
             <p>Llave en mano para la instalación de sistemas para medición de flujo de hidrocarburos; incluyendo controladores de flujo, medidores de flujo, válvulas de control, etc.</p>
           </li>
@@ -38,20 +38,21 @@
   </div>
 </section>
 <section class="well well3">
-  <div class="row">
-    <div class="col-sm-12 col-md-8 col-md-offset-2">
-      <div class="table-responsive">
-        <table class="normal service-table">
-          <caption class="text-center">RELACIÓN DE SERVICIOS DE INSTALACIÓN Y PUESTA EN MARCHA EFECTUADOS</caption>
-          <thead>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-10 col-md-offset-1">
+        <div class="table-responsive">
+          <table class="normal service-table">
+            <caption class="text-center">RELACIÓN DE SERVICIOS DE INSTALACIÓN Y PUESTA EN MARCHA EFECTUADOS</caption>
+            <thead>
             <tr>
               <th>Propietario</th>
               <th>Planta</th>
-              <th>Descripción</th>
+              <th class="expand-pad">Descripción</th>
               <th>Inicio</th>
             </tr>
-          </thead>
-          <tbody>
+            </thead>
+            <tbody>
             <tr>
               <td class="tdprop">VOPAK</td>
               <td>Terminal Callao</td>
@@ -136,7 +137,7 @@
               <td>Proyecto llave en mano: Sistema de despacho e Inyección de Aditivos, incluyendo 3 Controladores Acculoads, 3 Controladores Minipak 3000, Bombas, etc.</td>
               <td>Sept.09</td>
             </tr>
-			<tr>
+            <tr>
               <td class="tdprop">REPSOL</td>
               <td>Refinería La Pampilla</td>
               <td>Proyecto de Actualización de Accuload</td>
@@ -250,8 +251,9 @@
               <td>25 Brazos de Carga para diferentes plantas</td>
               <td>Dic. 95</td>
             </tr>
-          </tbody>
-        </table>
+            </tbody>
+          </table>
+        </div>
       </div>
     </div>
   </div>

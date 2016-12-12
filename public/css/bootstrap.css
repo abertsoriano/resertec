@@ -179,7 +179,7 @@ table {
 }
 td,
 th {
-  padding: 20px;
+  padding: 15px;
 }
 /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
 @media print {
@@ -1348,10 +1348,45 @@ th {
 }
 .parallax_cnt {
   position: relative;
+  background-color: rgba(35, 31, 32, 0.38);
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .parallax a.link {
   text-decoration: underline;
 }
+
+/*==================  RD Parallax    ======================*/
+.secparallax {
+  position: relative;
+  overflow: hidden;
+}
+.secparallax_image,
+.secparallax_pattern {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  background-position: center center;
+  will-change: transform;
+}
+.secparallax_image {
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.secparallax_pattern {
+  background-repeat: repeat;
+}
+.secparallax_cnt {
+  position: relative;
+}
+.secparallax a.link {
+  text-decoration: underline;
+}
+
+
 /*==================   RD Mobile Menu    =====================*/
 .rd-mobilemenu {
   display: none;
@@ -6243,7 +6278,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     border-radius: 0;
   }
   .navbar-header a img {
-    height: 43px;
+    height: 50px;
     vertical-align: text-top;
   }
 }
@@ -6322,7 +6357,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-nav {
   padding-right: 0px;
-  padding-top: 12px;
+  padding-top: 17px;
 }
 @media (min-width: 768px) {
   .navbar-nav > li {
@@ -6361,6 +6396,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-default {
   background-color: #EC1C24;
   border-color: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .navbar-default .navbar-brand {
   color: #ffffff;
@@ -7858,7 +7895,7 @@ a.list-group-item-danger.active:focus {
   padding-top: 109px;
 }
 .well2nosotros {
-  padding-bottom: 387px;
+  padding-bottom: 360px;
   padding-top: 109px;
 }
 @media (max-width: 767px) {
@@ -9197,4 +9234,7 @@ button.close {
 .normal
 {
   color: #000;
+}
+.imgicons {
+  padding-bottom: 10px;
 }

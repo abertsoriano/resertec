@@ -17,6 +17,7 @@ Route::get('clientes', 'WebController@clientes');
 Route::get('productos', 'WebController@productos');
 Route::get('servicios', 'WebController@servicios');
 Route::get('contacto', 'WebController@contacto');
+Route::get('galeria', 'WebController@galeria');
 
 Route::post('newsletter', 'WebController@newsletter');
 Route::post('send-contact', 'WebController@sendContact');

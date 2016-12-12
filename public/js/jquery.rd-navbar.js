@@ -36,6 +36,8 @@
 
         createDOM: function () {
             var nav = this;
+            var imgLogo = $('[data-type="rd-navbar-brand"]').html();
+            imgLogo = $(imgLogo).addClass('pull-right').attr('src', 'images/logo_rojo.png');
 
             $('body')
                 .append($('<div/>', {
@@ -48,9 +50,9 @@
                         'class': settings.toggleClass
                     }).append($('<span/>')))
                     .append($('<h2/>', {
-                        'class': settings.titleClass                        
-                    }).append($('[data-type="rd-navbar-brand"]').length? $('[data-type="rd-navbar-brand"]').html() : document.title))
-                    );
+                        'class': settings.titleClass
+                    }).append(imgLogo))
+                );
         },
 
         createNavDOM: function () {

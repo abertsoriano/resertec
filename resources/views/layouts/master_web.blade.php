@@ -4,19 +4,11 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-
 	<meta name="format-detection" content="telephone=no"/>
 	<title>{{ $title or 'RESERTEC' }}</title>
-
-	<link href="css/bootstrap.css" rel="stylesheet">
-
-	<link rel="stylesheet" href="css/camera.css">
-	<link rel="stylesheet" href="css/mailform-sub.css">
 	<link rel="stylesheet" href="css/main.css">
+	@yield('other-css')
 	<link rel="shortcut icon" type="images/ico" href="images/favicon.ico">
-	<script src="js/jquery.js"></script>
-	<script src="js/jquery-migrate-1.2.1.min.js"></script>
-	<script src="js/rd-smoothscroll.min.js"></script>
 	<!--[if lt IE 9]>
 	<div style=' clear: both; text-align:center; position: relative;'>
 	  <a href="http://windows.microsoft.com/en-US/internet-explorer/..">
@@ -26,7 +18,6 @@
 	</div>
 	<script src="js/html5shiv.js"></script>
 	<![endif]-->
-	<script src='js/device.min.js'></script>
 	</head>
 	<body>
 	<div class="page">
@@ -41,39 +32,34 @@
 			          </a>
 			        </h1>
 			      </div>
-			      <ul class="navbar-nav sf-menu navbar-right" data-type="navbar">
-			        <li class="active"><a href="{{ url('/') }}">Inicio</a></li>
-			        <li><a href="nosotros">Nosotros</a></li>
-			        <li><a href="clientes">Clientes</a></li>
-			        <li><a href="productos">Productos</a></li>
-			        <li><a href="servicios">Servicios</a></li>
-			        <li><a href="contacto">Contacto</a></li>
-			      </ul>
+					<ul class="navbar-nav sf-menu navbar-right" data-type="navbar">
+			        	<li class="active"><a href="{{ url('/') }}">Inicio</a></li>
+						<li><a href="{{ url('nosotros') }}">Nosotros</a></li>
+						<li><a href="{{ url('clientes') }}">Clientes</a></li>
+						<li><a href="{{ url('productos') }}">Productos</a></li>
+						<li><a href="{{ url('servicios') }}">Servicios</a></li>
+						<li><a href="{{ url('galeria') }}">Galería</a></li>
+						<li><a href="{{ url('contacto') }}">Contacto</a></li>
+					</ul>
 			   </div>
 			  </nav>
 			</div>
 			@if (isset($homeBanner))
 			<section class="camera_container">
-			  <div class="jumbotron text-center">
-			    <div class="container wow fadeInLeft">
-			      <p class="head text-left">TRABAJAMOS PARA BRINDAR</p>
-			      <p class="head text-left">UN SERVICIO DE CALIDAD.</p>
-			    </div>
-			  </div>
-			  <div id="camera" class="camera_wrap">
-			    <div data-src="images/slide1.png">
-			      <div class="camera_caption fadeIn"></div>
-			    </div>
-			    <div data-src="images/slide2.png">
-			      <div class="camera_caption fadeIn"></div>
-			    </div>
-			  </div>
-			  <div class="well welliniline">
-			      <div class="container">
-			        <div class="mailform-sub">
-			        </div>
-			      </div>
-			  </div>
+				<div class="jumbotron text-center">
+					<div class="container wow fadeInLeft">
+						<p class="head text-left">TRABAJAMOS PARA BRINDAR</p>
+						<p class="head text-left">UN SERVICIO DE CALIDAD.</p>
+					</div>
+				</div>
+				<div id="camera" class="camera_wrap">
+					<div data-src="images/slide1.jpg">
+						<div class="camera_caption fadeIn"></div>
+					</div>
+					<div data-src="images/slide2.jpg">
+						<div class="camera_caption fadeIn"></div>
+					</div>
+				</div>
 			</section>
 			@endif
 		</header>
@@ -95,7 +81,11 @@
 			</section>
 		</footer>
 	</div>
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery-migrate-1.2.1.min.js"></script>
+	<script src="js/rd-smoothscroll.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
+	@yield('other-script')
 	<script src="js/tm-scripts.js"></script>
 	</body>
 </html>

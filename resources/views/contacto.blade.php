@@ -4,26 +4,24 @@
 <section class="well well1">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-2 col-sm-6 col-xs-6 col-md-offset-1"></div>
-			<div class="col-md-2 col-sm-6 col-xs-6"></div>
-			<div class="col-md-2 col-sm-6 col-xs-6 wow fadeInLeft" data-wow-delay=".5s">
-				<img src="images/page-1_img5.png" alt="" class="center-block" />
-				<h5 class="ins_r text-center sub-title"><a href="#productos">CONTACTO</a></h5>
+			<div class="col-sm-2 hidden-xs"></div>
+			<div class="col-sm-2 hidden-xs"></div>
+			<div class="col-sm-4 col-xs-12 wow fadeInLeft" data-wow-delay=".5s">
+				<img src="images/page-1_img5.jpg" alt="" class="center-block" />
+				<h5 class="ins_r text-center sub-title no-txt-shadow">CONTACTO</h5>
 			</div>
-			<div class="col-md-2 col-sm-6 col-xs-6"></div>
-			<div class="col-md-2 col-sm-6 col-xs-6"></div>
+			<div class="col-sm-2 hidden-xs"></div>
+			<div class="col-md-2 hidden-xs"></div>
 		</div>
 	</div>
 </section>
-<div class="map">
-	<div><img src="images/adress.png" alt="" class="img-responsive center-block" /></div>
-</div>
-<section class="well wellnosline bg-primary"></section>
 <section class="well well1">
 	<div class="container">
 		<div class="row">
-			<p class="col-md-12 text-center txtdir1coo">CONTÁCTANOS</p>
-			<div class="col-md-3 col-sm-5 wow fadeInLeft" data-wow-delay=".9s">
+			<div class="col-md-12 wow fadeInLeft" data-wow-delay=".9s">
+				<p class="col-md-12 text-center txtdir1coo">CONTÁCTANOS</p>
+			</div>
+			<div class="col-md-3 col-sm-4 wow fadeInLeft" data-wow-delay=".9s">
 				<p class="txtdir1co">Resertec SRL</p>
 				<p class="txtdir2">Av. San Borja Norte 1263</p>
 				<p class="txtdir2co">Lima - 41 Perú</p>
@@ -31,7 +29,7 @@
 				<p class="txtdir2"><i class="fa fa-phone"></i>  436 6372</p>
 				<p class="txtdir2"><i class="fa fa-phone"></i>  436 6013</p>
 			</div>
-			<div class="col-md-9 col-sm-7 wow fadeInLeft navbarbarra" data-wow-delay=".7s">
+			<div class="col-md-9 col-sm-8 wow fadeInLeft navbarbarra" data-wow-delay=".7s">
 				<form id="frm-contact">
 					<div class="col-sm-6">
 						<div class="col-sm-10 col-sm-offset-1">
@@ -69,6 +67,9 @@
 		</div>
 	</div>
 </section>
-<section class="well wellnosline bg-primary">
-</section>
+<section class="well wellnosline bg-primary">  </section>
+<div class="map">
+	<div><img src="{{ asset('images/adress.png') }}" alt="" class="img-responsive center-block" /></div>
+</div>
+<section class="well wellnosline bg-primary"></section>
 @endsection

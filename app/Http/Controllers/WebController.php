@@ -47,6 +47,11 @@ class WebController extends Controller
 		return view('contacto', compact('title'));
 	}
 
+	public function galeria() {
+        $title = 'GALERÍA';
+        return view('galeria', compact('title'));
+    }
+
 	public function newsletter(NewsletterRequest $request)
 	{
 		Newsletter::create($request->all());

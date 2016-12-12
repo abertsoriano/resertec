@@ -150,7 +150,7 @@
             if (parallax.isIE() && parallax.ieVersion() <= 10) {
                 parallax.$image.css('top', '' + pos + 'px');
             }
-            else if (parallax.isMobile() && parallax.options.mobile) {
+            /*else if (parallax.isMobile() && parallax.options.mobile) {
                 if (parallax.isTouched || parallax.isInit) {
                     parallax.$image.stop().animate({pos: pos}, {
                         step: function (pos) {
@@ -163,7 +163,7 @@
                 }
             } else {
                 parallax.$image.css('transform', 'translate3d(0, ' + pos + 'px, 0)');
-            }
+            }*/
 
             if (parallax.isFirefox() && window.devicePixelRatio < 1){
                 parallax.$image.css('background-color', '#010101');
@@ -175,17 +175,17 @@
         },
 
         resize: function () {
-            var parallax = this,
-                h = Math.max($(window).height(), 500);
+            var parallax = this;
+            //     h = Math.max($(window).height(), 500);
 
-            if(h < parallax.$wrap.outerHeight()){
-                h = parallax.$wrap.outerHeight() + $(window).height() * parallax.options.speed;
-            }
+            // if(h < parallax.$wrap.outerHeight()){
+            //     h = parallax.$wrap.outerHeight() + $(window).height() * parallax.options.speed;
+            // }
 
-            parallax.$image.height(h);
+            parallax.$image.height(490);
 
             setTimeout(function () {
-                parallax.move();
+                //parallax.move();
                 parallax.blur();
             }, 300);
         },
