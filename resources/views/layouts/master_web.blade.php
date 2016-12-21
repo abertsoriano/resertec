@@ -49,8 +49,7 @@
 			<section class="camera_container">
 				<div class="jumbotron text-center">
 					<div class="container wow fadeInLeft">
-						<p class="head text-left">TRABAJAMOS PARA BRINDAR</p>
-						<p class="head text-left">UN SERVICIO DE CALIDAD.</p>
+						<p class="head text-left">{!! $page->banner_inicio !!}</p>
 					</div>
 				</div>
 				<div id="camera" class="camera_wrap">

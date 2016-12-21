@@ -20,18 +20,11 @@
     <div class="wow fadeInLeft" data-wow-duration="2s">
       <div class="navbarbarra col-sm-12 col-md-10 col-md-offset-1">
         <ul class="list-unstyled txtpprod list-services product-list">
+          @foreach(json_decode($page->second_title, true) as $data)
           <li class="list-prroducts">
-            <p>Llave en mano para la instalación de sistemas para medición de flujo de hidrocarburos; incluyendo controladores de flujo, medidores de flujo, válvulas de control, etc.</p>
+            <p>{{ $data }}</p>
           </li>
-          <li class="list-prroducts">
-            <p>Sistemas para la medición de nivel de tanques de hidrocarburos, incluyendo medidores de nivel y sistemas automáticos de supervisión.</p>
-          </li>
-          <li class="list-prroducts">
-            <p>Intervención de ductos en caliente (Hot Tapping y Plugging)</p>
-          </li>
-          <li class="list-prroducts">
-            <p>Suministro y puesta en marcha de sistemas de control de inyección de químicos para concentrados en operaciones mineras.</p>
-          </li>
+          @endforeach
         </ul>
       </div>
     </div>

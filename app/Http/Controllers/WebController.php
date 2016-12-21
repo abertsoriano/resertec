@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 use App\Http\Requests\NewsletterRequest;
 use App\Http\Requests\ContactRequest;
 use App\Newsletter;
+use App\Page;
 use Mail;
 
 class WebController extends Controller
@@ -14,19 +15,22 @@ class WebController extends Controller
 	public function index()
 	{
 		$homeBanner = true;
-		return view('index', compact('homeBanner'));
+		$page = Page::getByPage('INICIO');
+		return view('index', compact('homeBanner', 'page'));
 	}
 
 	public function nosotros()
 	{
 		$title = 'NOSOTROS';
-		return view('nosotros', compact('title'));
+		$page = Page::getByPage($title);
+		return view('nosotros', compact('title', 'page'));
 	}
 
 	public function clientes()
 	{
 		$title = 'CLIENTES';
-		return view('clientes', compact('title'));
+		$page = Page::getByPage($title);
+		return view('clientes', compact('title', 'page'));
 	}
 
 	public function productos()
@@ -38,13 +42,15 @@ class WebController extends Controller
 	public function servicios()
 	{
 		$title = 'SERVICIOS';
-		return view('servicios', compact('title'));
+		$page = Page::getByPage($title);
+		return view('servicios', compact('title', 'page'));
 	}
 
 	public function contacto()
 	{
 		$title = 'CONTACTO';
-		return view('contacto', compact('title'));
+		$page = Page::getByPage($title);
+		return view('contacto', compact('title', 'page'));
 	}
 
 	public function galeria() {

@@ -23,8 +23,7 @@
 			</div>
 			<div class="col-md-3 col-sm-4 wow fadeInLeft" data-wow-delay=".9s">
 				<p class="txtdir1co">Resertec SRL</p>
-				<p class="txtdir2">Av. San Borja Norte 1263</p>
-				<p class="txtdir2co">Lima - 41 Perú</p>
+				<p class="txtdir2co">{!! $page->second_title !!}</p>
 				<p class="txtdir2"><i class="fa fa-phone"></i>  436 4517</p>
 				<p class="txtdir2"><i class="fa fa-phone"></i>  436 6372</p>
 				<p class="txtdir2"><i class="fa fa-phone"></i>  436 6013</p>

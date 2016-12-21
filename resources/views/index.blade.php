@@ -31,11 +31,11 @@
 		</div>
 	</div>
 </section>
-<section class="well well2 parallax bg-trans bg-bottom" data-url="images/parallax1.jpg" data-mobile="true" data-speed="0.6">
+<section class="well well2 parallax bg-trans bg-bottom" data-url="images/{{ $page->banner_title_img }}" data-mobile="true" data-speed="0.6">
 	<div class="container text-center">
-		<h2 class="text-shadow-black">SOMOS UNA COMPAÑÍA LÍDER</h2>
+		<h2 class="text-shadow-black">{{ $page->first_title }}</h2>
 		<p class="white ins1 offs1 sub-title">
-			En el campo de instrumentación de plantas de Hidrocarburos y<br>servicios de perforación con más de 43 años de experiencia.
+			{!! $page->second_title !!}
 		</p>
 		<div class="mailform-sub col-sm-12">
 			<div class="form-group mfControls">
@@ -86,11 +86,12 @@
 </section>
 
 <div class="content-middle-banners">
-	<section class="well well4 parallax text-center" id="productos" data-url="images/parallax2.jpg" data-mobile="true">
+	<section class="well well4 parallax text-center" id="productos" data-url="images/{{ $page->banner_title2_img }}" data-mobile="true">
 		<div class="container">
-			<h2 class="text-shadow-black">PRODUCTOS</h2>
+			<h2 class="text-shadow-black">{{ $page->first_title2 }}</h2>
 			<p class="white ins1 sub-title title-md">
-				Nuestros productos pertenecen a las marcas más prestigiosas y reconocidas de la industria, por lo que se adaptan de manera optima a la solución que el cliente necesita.</p>
+				{{ $page->second_title2 }}
+			</p>
 			<div class="mailform-sub col-sm-12">
 				<div class="form-group mfControls">
 					<a class="btnv" href="{{ url('productos') }}">+ Leer más</a>
@@ -98,11 +99,12 @@
 			</div>
 		</div>
 	</section>
-	<section class="well well4 parallax text-center" id="servicios" data-url="images/parallax3.jpg" data-mobile="true" data-speed="0.6">
+	<section class="well well4 parallax text-center" id="servicios" data-url="images/{{ $page->banner_title3_img }}" data-mobile="true" data-speed="0.6">
 		<div class="container">
-			<h2 class="text-shadow-black">SERVICIOS</h2>
+			<h2 class="text-shadow-black">{{ $page->first_title3 }}</h2>
 			<div class="col-sm-12">
-				<p class="white sub-title title-md line-he-m">Nuestros 43 años de experiencia nos han permitido trabajar con las empresas más destacadas  en los rubros de Petróleo, Gas, Energía y Minería. Nuestros servicios incluyen ingeniería, montaje, puesta en marcha, trabajos electrónicos, eléctricos y metalmecánicos que garantizan el óptimo funcionamiento de los equipos instalados, así como el apoyo técnico correspondiente.
+				<p class="white sub-title title-md line-he-m">
+				{{ $page->second_title3 }}
 				</p>
 				<div class="mailform-sub col-sm-12">
 					<div class="form-group mfControls">

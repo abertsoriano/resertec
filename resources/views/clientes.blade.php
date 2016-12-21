@@ -21,7 +21,7 @@
 			<div class="navbarbarra col-sm-12 col-md-10 col-md-offset-1">
 				<ul class="list-unstyled txtpprod list-services">
 					<li>
-						<p>Nuestros clientes se encuentran entre las empresas líderes en el mercado.</p>
+						<p>{{ $page->first_title }}</p>
 					</li>
 				</ul>
 			</div>
