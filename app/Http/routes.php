@@ -23,6 +23,8 @@ Route::group(['middleware' => ['web', 'auth'], 'prefix' => 'admin'], function ($
 	$route->get('nosotros', 'HomeController@nosotros')->name('nosotros');
 	$route->get('clientes', 'HomeController@clientes')->name('clientes');
 	$route->get('servicio', 'HomeController@servicio')->name('servicio');
+	$route->get('gallery', 'HomeController@gallery')->name('gallery');
+	$route->post('updateGalery', 'HomeController@updateGalery')->name('updateGalery');
 });
 
 Route::get('/', 'WebController@index');

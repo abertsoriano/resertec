@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Laravel</title>
+    <title>Admin Resertec</title>
 
     <!-- Fonts -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css" integrity="sha384-XdYbMnZ/QjLh6iI4ogqCTaIjrFk87ip+ekIjefZch0Y+PvJ8CDYtEs1ipDmPorQ+" crossorigin="anonymous">
@@ -27,6 +27,11 @@
             border: 4px solid #999;
             margin-bottom: 15px;
         }
+        .content-img {
+            height: 220px;
+            background-size: cover;
+            margin-bottom: 15px;
+        }
     </style>
 </head>
 <body id="app-layout">
@@ -43,18 +48,17 @@
                 </button>
 
                 <!-- Branding Image -->
-                <a class="navbar-brand" href="{{ url('/') }}">
-                    Laravel
-                </a>
+                <a class="navbar-brand" href="{{ url('/') }}">Resertec</a>
             </div>
 
             <div class="collapse navbar-collapse" id="app-navbar-collapse">
                 <!-- Left Side Of Navbar -->
                 <ul class="nav navbar-nav">
-                    <li><a href="{{ route('inicio') }}">Home</a></li>
+                    <li><a href="{{ route('inicio') }}">Inicio</a></li>
                     <li><a href="{{ route('nosotros') }}">Nosotros</a></li>
                     <li><a href="{{ route('clientes') }}">Clientes</a></li>
                     <li><a href="{{ route('servicio') }}">Servicio</a></li>
+                    <li><a href="{{ route('gallery') }}">Galería</a></li>
                 </ul>
 
                 <!-- Right Side Of Navbar -->

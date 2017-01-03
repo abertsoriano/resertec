@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Http\Requests;
 use Illuminate\Http\Request;
 use App\Page;
+use App\Galery;
 
 class HomeController extends Controller
 {
@@ -68,5 +69,34 @@ class HomeController extends Controller
     {
         $page = Page::getByPage('SERVICIOS');
         return view('admin.servicio', compact('page'));
+    }
+
+    public function gallery()
+    {
+        $data = Galery::all();
+        return view('admin.galery', compact('data'));
+    }
+
+    public function updateGalery(Request $request)
+    {
+        $imagen = Galery::find($request->input('id'));
+
+        if ($imagen) {
+            $file_name = $this->addReplaceImage($request, 'imagen', $imagen, 'images/galeria/');
+            if ($file_name) {
+                $imagen->imagen = $file_name;
+            }
+        } else {
+            if ($request->hasFile('imagen')) {
+                $file_name = str_replace([' ', '-'], '_', $request->file('imagen')->getClientOriginalName());
+                $request->file('imagen')->move('images/galeria/', $file_name);
+                $imagen = new Galery;
+                $imagen->imagen = $file_name;
+            }
+        }
+
+        $imagen->save();
+
+        return redirect()->back();
     }
 }

@@ -8,6 +8,7 @@ use App\Http\Requests\NewsletterRequest;
 use App\Http\Requests\ContactRequest;
 use App\Newsletter;
 use App\Page;
+use App\Galery;
 use Mail;
 
 class WebController extends Controller
@@ -55,7 +56,8 @@ class WebController extends Controller
 
 	public function galeria() {
         $title = 'GALERÍA';
-        return view('galeria', compact('title'));
+        $galeries = Galery::all();
+        return view('galeria', compact('title', 'galeries'));
     }
 
 	public function newsletter(NewsletterRequest $request)
