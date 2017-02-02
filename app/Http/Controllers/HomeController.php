@@ -2,13 +2,14 @@
 
 namespace App\Http\Controllers;
 
-use App\Http\Requests;
 use Illuminate\Http\Request;
 use App\Page;
 use App\Galery;
+use File;
 
 class HomeController extends Controller
 {
+    const PATH_GALLERY = 'images/galeria/';
     /**
      * Create a new controller instance.
      *
@@ -39,6 +40,7 @@ class HomeController extends Controller
         $banner_title3_img = $this->addReplaceImage($request, 'banner_title3_img', $page);
 
         $data = $request->toArray();
+        dd($data);
         $data['banner_title_img'] = $banner_title_img;
         $data['banner_title2_img'] = $banner_title2_img;
         $data['banner_title3_img'] = $banner_title3_img;
@@ -82,14 +84,14 @@ class HomeController extends Controller
         $imagen = Galery::find($request->input('id'));
 
         if ($imagen) {
-            $file_name = $this->addReplaceImage($request, 'imagen', $imagen, 'images/galeria/');
+            $file_name = $this->addReplaceImage($request, 'imagen', $imagen, self::PATH_GALLERY);
             if ($file_name) {
                 $imagen->imagen = $file_name;
             }
         } else {
             if ($request->hasFile('imagen')) {
                 $file_name = str_replace([' ', '-'], '_', $request->file('imagen')->getClientOriginalName());
-                $request->file('imagen')->move('images/galeria/', $file_name);
+                $request->file('imagen')->move(self::PATH_GALLERY, $file_name);
                 $imagen = new Galery;
                 $imagen->imagen = $file_name;
             }
@@ -98,5 +100,17 @@ class HomeController extends Controller
         $imagen->save();
 
         return redirect()->back();
+    }
+
+    public function deleteGallery($id)
+    {
+        $imagen = Galery::find($id);
+
+        if ($imagen) {
+            File::delete(self::PATH_GALLERY . $imagen->getAttribute('imagen'));
+            $imagen->delete();
+        }
+
+        return response()->json(true);
     }
 }

@@ -7,11 +7,16 @@
             <form method="POST" action="{{ route('updateInicio', $page->id) }}">
 
                 <div class="panel panel-default">
-                    <div class="panel-heading">CLIENTES</div>
+                    <div class="panel-heading">SERVICIOS</div>
                     <div class="panel-body data-container">
                     	@foreach(json_decode($page->second_title, true) as $file)
                         <div class="form-group">
-                            <input type="text" class="form-control" name="data[]" value="{{ $file }}">
+                            <div class="input-group">
+                                <input type="text" class="form-control" name="data[]" value="{{ $file }}">
+                                <div class="input-group-btn">
+                                    <button type="button" class="btn btn-danger">X</button>
+                                </div>
+                            </div>
                         </div>
                         @endforeach
                     </div>

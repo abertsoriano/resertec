@@ -23,7 +23,7 @@
                     <div class="ftg-items">
                         @foreach($galeries as $galery)
                         <div class="tile">
-                            <a data-lightbox="gallery" class="tile-inner" href="public/images/galeria/{{ $galery->imagen }}">
+                            <a data-lightbox="gallery" class="tile-inner" href="images/galeria/{{ $galery->imagen }}">
                                 <img class="item" data-src="images/galeria/{{ $galery->imagen }}" />
                             </a>
                         </div>

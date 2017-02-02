@@ -8,7 +8,7 @@
             <div class="panel panel-info">
                 <div class="panel-heading">Galería</div>
                 <div class="panel-body">
-                    <div class="row">
+                    <div class="row" id="content-gallery">
                         <div class="col-sm-12">
                             <form action="{{ route('updateGalery') }}" method="post" enctype="multipart/form-data">
                                 <h2 style="margin-top: 0">Agregar uno nuevo</h2>
@@ -32,6 +32,9 @@
                                     </div>
                                     <div>
                                         <button type="submit" class="btn btn-primary">Guardar</button>
+                                        <button type="button" class="btn btn-danger pull-right" data-id="{{ $imagen->id }}">
+                                            <i class="fa fa-trash fa-lg"></i>
+                                        </button>
                                     </div>
                                 </form>
                             </div>
@@ -43,4 +46,5 @@
         </div>
     </div>
 </div>
+<form class="hidden" id="formDeleteGallery" action="{{ route('deleteGallery', ':ID') }}" method="post"></form>
 @endsection

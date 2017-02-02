@@ -11,8 +11,8 @@
 |
 */
 Route::group(['prefix' => 'admin', 'middleware' => ['web']], function ($route) {
-    Route::get('login', 'Auth\AuthController@showLoginForm')->name('auth');
-    Route::post('login', 'Auth\AuthController@login')->name('login');
+    $route->get('login', 'Auth\AuthController@showLoginForm')->name('auth');
+    $route->post('login', 'Auth\AuthController@login')->name('login');
 });
 
 Route::group(['middleware' => ['web', 'auth'], 'prefix' => 'admin'], function ($route) {
@@ -24,6 +24,7 @@ Route::group(['middleware' => ['web', 'auth'], 'prefix' => 'admin'], function ($
 	$route->get('clientes', 'HomeController@clientes')->name('clientes');
 	$route->get('servicio', 'HomeController@servicio')->name('servicio');
 	$route->get('gallery', 'HomeController@gallery')->name('gallery');
+	$route->post('delete-gallery/{id}', 'HomeController@deleteGallery')->name('deleteGallery');
 	$route->post('updateGalery', 'HomeController@updateGalery')->name('updateGalery');
 });
 
