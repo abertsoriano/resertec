@@ -21,7 +21,7 @@
 			<div class="navbarbarra col-sm-12 col-md-10 col-md-offset-1">
 				<ul class="list-unstyled txtpprod list-services">
 					<li>
-						<p>{{ $page->first_title }}</p>
+						<p>{!! $page->first_title !!}</p>
 					</li>
 				</ul>
 			</div>

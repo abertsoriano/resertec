@@ -17,6 +17,13 @@ class WebController extends Controller
 	{
 		$homeBanner = true;
 		$page = Page::getByPage('INICIO');
+		$pageUs = Page::getByPage('NOSOTROS');
+
+		$page->setAttribute('vision_title', $pageUs->first_title2);
+		$page->setAttribute('vision_desc', $pageUs->second_title2);
+		$page->setAttribute('mission_title', $pageUs->first_title3);
+		$page->setAttribute('mission_desc', $pageUs->second_title3);
+
 		return view('index', compact('homeBanner', 'page'));
 	}
 

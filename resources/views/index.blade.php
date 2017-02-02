@@ -90,7 +90,7 @@
 		<div class="container">
 			<h2 class="text-shadow-black">{{ $page->first_title2 }}</h2>
 			<p class="white ins1 sub-title title-md">
-				{{ $page->second_title2 }}
+				{!! $page->second_title2 !!}
 			</p>
 			<div class="mailform-sub col-sm-12">
 				<div class="form-group mfControls">
@@ -104,7 +104,7 @@
 			<h2 class="text-shadow-black">{{ $page->first_title3 }}</h2>
 			<div class="col-sm-12">
 				<p class="white sub-title title-md line-he-m">
-				{{ $page->second_title3 }}
+				{!! $page->second_title3 !!}
 				</p>
 				<div class="mailform-sub col-sm-12">
 					<div class="form-group mfControls">
@@ -112,6 +112,7 @@
 					</div>
 				</div>
 			</div>
+		</div>
 	</section>
 </div>
 
@@ -120,16 +121,14 @@
 		<ul class="wow fadeInLeft vision-mision" data-wow-duration="2s">
 			<li class="col-md-6 col-sm-6 col-xs-12 border-right">
 				<div>
-					<h6>VISIÓN</h6>
-					<p class="sub-title title-sm line-he-m text-justify no-txt-shadow">“CONVERTIRNOS EN EL PROVEEDOR PREFERIDO POR NUESTROS CLIENTES A NIVEL NACIONAL EN SERVICIOS Y PRODUCTOS ESPECIALIZADOS EN LA INDUSTRIA DE GAS, PETRÓLEO, ENERGÍA Y MINERÍA”.
-					</p>
+					<h6>{{ $page->vision_title }}</h6>
+					<p class="sub-title title-sm line-he-m text-justify no-txt-shadow">{!! $page->vision_desc !!}</p>
 				</div>
 			</li>
 			<li class="col-md-6 col-sm-6 col-xs-12">
 				<div>
-					<h6>MISIÓN</h6>
-					<p class="sub-title title-sm line-he-m text-justify no-txt-shadow">“BRINDARLE A NUESTROS CLIENTES SERVICIOS, EQUIPAMIENTO MECÁNICO E INSTRUMENTACIÓN DE PRIMERA CALIDAD EN LA INDUSTRIA DE GAS, PETRÓLEO, ENERGÍA Y MINERÍA, PROPORCIONÁNDOLES LA MEJOR SOLUCIÓN TÉCNICA”.
-					</p>
+					<h6>{{ $page->mission_title }}</h6>
+					<p class="sub-title title-sm line-he-m text-justify no-txt-shadow">{!! $page->mission_desc !!}</p>
 				</div>
 			</li>
 		</ul>

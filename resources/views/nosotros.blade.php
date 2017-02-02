@@ -21,7 +21,7 @@
       <li class="navbarbarra col-md-12 col-sm-12 col-xs-12">
         <div>
           <p class="text-justify line-he-xl p-fix">
-            {{ $page->second_title }}
+            {!! $page->second_title !!}
           </p>
         </div>
       </li>
@@ -39,7 +39,7 @@
         <div>
           <h6>{{ $page->first_title2 }}</h6>
           <p class="sub-title title-sm line-he-m text-justify no-txt-shadow">
-            {{ $page->second_title2 }}
+            {!! $page->second_title2 !!}
           </p>
         </div>
       </li>
@@ -47,7 +47,7 @@
         <div>
           <h6>{{ $page->first_title3 }}</h6>
           <p class="sub-title title-sm line-he-m text-justify no-txt-shadow">
-            {{ $page->second_title3 }}
+            {!! $page->second_title3 !!}
           </p>
         </div>
       </li>

@@ -6,7 +6,7 @@
         <div class="col-md-10 col-md-offset-1">
             <form method="POST" action="{{ route('updateInicio', $page->id) }}">
 
-                <div class="panel panel-default">
+                <div class="panel panel-info">
                     <div class="panel-heading">SERVICIOS</div>
                     <div class="panel-body data-container">
                     	@foreach(json_decode($page->second_title, true) as $file)

@@ -10,6 +10,7 @@ use File;
 class HomeController extends Controller
 {
     const PATH_GALLERY = 'images/galeria/';
+
     /**
      * Create a new controller instance.
      *
@@ -40,10 +41,18 @@ class HomeController extends Controller
         $banner_title3_img = $this->addReplaceImage($request, 'banner_title3_img', $page);
 
         $data = $request->toArray();
-        dd($data);
-        $data['banner_title_img'] = $banner_title_img;
-        $data['banner_title2_img'] = $banner_title2_img;
-        $data['banner_title3_img'] = $banner_title3_img;
+
+        if ($banner_title_img != '') {
+            $data['banner_title_img'] = $banner_title_img;
+        }
+
+        if ($banner_title2_img) {
+            $data['banner_title2_img'] = $banner_title2_img;
+        }
+
+        if ($banner_title3_img) {
+            $data['banner_title3_img'] = $banner_title3_img;
+        }
 
         if ($request->has('data')) {
             $page->second_title = json_encode($request->input('data'));
