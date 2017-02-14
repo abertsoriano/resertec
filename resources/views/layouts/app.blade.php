@@ -32,6 +32,18 @@
             background-size: cover;
             margin-bottom: 15px;
         }
+        .content-img-prodduct {
+            height: 82px;
+            background-repeat: no-repeat;
+            background-position: 50% 50%;
+        }
+        .slider-container {
+            height: 600px;
+            overflow: auto;
+        }
+        .small-content {
+            font-size: .9em;
+        }
     </style>
 </head>
 <body id="app-layout">
@@ -57,6 +69,7 @@
                     <li><a href="{{ route('inicio') }}">Inicio</a></li>
                     <li><a href="{{ route('nosotros') }}">Nosotros</a></li>
                     <li><a href="{{ route('clientes') }}">Clientes</a></li>
+                    <li><a href="{{ route('productos') }}">Productos</a></li>
                     <li><a href="{{ route('servicio') }}">Servicio</a></li>
                     <li><a href="{{ route('gallery') }}">Galería</a></li>
                 </ul>
@@ -74,7 +87,7 @@
                             </a>
 
                             <ul class="dropdown-menu" role="menu">
-                                <li><a href="{{ url('/logout') }}"><i class="fa fa-btn fa-sign-out"></i>Logout</a></li>
+                                <li><a href="{{ route('logout') }}"><i class="fa fa-btn fa-sign-out"></i>Logout</a></li>
                             </ul>
                         </li>
                     @endif
@@ -86,8 +99,8 @@
     @yield('content')
 
     <!-- JavaScripts -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js" integrity="sha384-I6F5OKECLVtK/BL+8iSLDEHowSAfUo76ZL9+kGAgTRdiByINKJaqTPH/QVNS1VDb" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script src="{{ asset("js/jquery.js") }}"></script>
+    <script src="{{ asset("js/bootstrap.min.js") }}"></script>
     {{-- <script src="{{ elixir('js/app.js') }}"></script> --}}
     <script type="text/javascript" src="{{ asset('js/app.js')}}"></script>
     @yield('other')

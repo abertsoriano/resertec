@@ -9,6 +9,7 @@ use App\Http\Requests\ContactRequest;
 use App\Newsletter;
 use App\Page;
 use App\Galery;
+use App\Product;
 use Mail;
 
 class WebController extends Controller
@@ -44,7 +45,10 @@ class WebController extends Controller
 	public function productos()
 	{
 		$title = 'PRODUCTOS';
-		return view('productos', compact('title'));
+
+        list($sliders, $tableProducts) = $this->getProducts();
+
+		return view('productos', compact('title', 'sliders', 'tableProducts'));
 	}
 
 	public function servicios()

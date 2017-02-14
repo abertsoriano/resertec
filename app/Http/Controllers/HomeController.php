@@ -1,15 +1,19 @@
 <?php
-
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Http\Requests\ProductRequest;
 use App\Page;
 use App\Galery;
+use App\Product;
 use File;
 
 class HomeController extends Controller
 {
     const PATH_GALLERY = 'images/galeria/';
+    const PATH_LOGO = 'images/logos/';
+
+    const LOGO_IMG = 'logo_img';
 
     /**
      * Create a new controller instance.
@@ -59,6 +63,7 @@ class HomeController extends Controller
         } else {
             $page->fill($data);
         }
+
         $page->save();
 
         return redirect()->back()->with('mensaje', 'Datos actualizados con exito');
@@ -74,6 +79,13 @@ class HomeController extends Controller
     {
         $page = Page::getByPage('CLIENTES');
         return view('admin.cliente', compact('page'));
+    }
+
+    public function productos() {
+
+        list($sliders, $tableProducts) = $this->getProducts();
+
+        return view('admin.productos', compact('sliders', 'tableProducts'));
     }
 
     public function servicio()
@@ -121,5 +133,45 @@ class HomeController extends Controller
         }
 
         return response()->json(true);
+    }
+
+    public function addProduct(ProductRequest $request) {
+
+        $imageName = $this->addReplaceImage($request, self::LOGO_IMG, null, self::PATH_LOGO);
+
+        $data = $request->all();
+        $data[self::LOGO_IMG] = $imageName;
+        Product::create($data);
+
+        return redirect()->back();
+    }
+
+    public function deleteProduct($idProduct) {
+        $product = Product::find($idProduct);
+
+        if ($product) {
+            File::delete(self::PATH_LOGO . $product->getAttribute(self::LOGO_IMG));
+            $product->delete();
+        }
+
+        return response()->json(true);
+    }
+
+    public function editProduct(Request $request, $id) {
+
+        $product = Product::find($id);
+
+        if ($product) {
+
+            $imageName = $this->addReplaceImage($request, self::LOGO_IMG, $product, self::PATH_LOGO);
+            if ($imageName) {
+                $product->logo_img = $imageName;
+            }
+
+            $product->fill($request->only(['name', 'desc']));
+            $product->save();
+        }
+
+        return redirect()->back();
     }
 }
